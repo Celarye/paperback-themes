@@ -16,7 +16,7 @@ This changes everything that's red in the standard theme (this does not include 
 2) **BasicPaperbackBlueColors**: the blue available on Paperback.moe (under settings).
 3) **BasicPaperbackRedColors**: the red available on Paperback.moe (under settings).
 4) **BasicPaperbackPurpleColors**: the purple available on Paperback.moe (under settings).
-5) **BasicCherryBlossomPinkColors**: the pink color from chery blossom trees, coming soon!
+5) **BasicCherryBlossomPinkColors**: the pink color from chery blossom trees!
 
 The other type are advanced themes.
 This currently has some readability issues in the manga viewer but paper (Paperback developer) will fix this in a future update.
