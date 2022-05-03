@@ -1,5 +1,7 @@
 # Paperback-themes
-### A repository containing all current Paperback themes and templates so you can make your own theme yourself.
+### This is a repository containing all current Paperback themes and templates so you can make your own theme yourself.
+
+---
 
 Since the 0.7 release Paperback has the option to make and use a custom theme in the app.
 
@@ -14,12 +16,13 @@ This changes everything that's red in the standard theme (this does not include 
 2) **BasicPaperbackBlueColors**: the blue available on Paperback.moe (under settings).
 3) **BasicPaperbackRedColors**: the red available on Paperback.moe (under settings).
 4) **BasicPaperbackPurpleColors**: the purple available on Paperback.moe (under settings).
-5) **BasicCherryBlossomPinkColors**: the pink from the chery blossom trees, coming soon!
+5) **BasicCherryBlossomPinkColors**: the pink color from chery blossom trees, coming soon!
 
 The other type are advanced themes.
+This currently has some readability issues in the manga viewer but paper (Paperback developer) will fix this in a future update.
 These are themes that also change the color of the background, certain boxes and text:
 
-1) **AdvancedZikoBlueColors**: A theme made by @zikofurito#2238 (with me who added light mode compatibility and made some other fixes) (currently has some readability issues in the manga viewer but paper (Paperback developer) will fix this in a future update).
+1) **AdvancedZikoBlueColors**: A theme made by @zikofurito#2238 (with me who added light mode compatibility and made some other fixes).
 2) **AdvancedCelaryePurpleColors**: Coming soon!
 3) **AdvancedCelaryeTwitterColors**: Coming soon!
 4) **AdvancedCelaryeDiscordColors**: Coming soon!
