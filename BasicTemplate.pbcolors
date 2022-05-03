@@ -1,0 +1,269 @@
+// READ THE GUIDE BELLOW BEFORE STARTING!
+										
+// Basic theme:
+// This part exists from "1" to "5".
+// First get the rgb values of the color (recommended to make all of these the same color) you want to make the basic theme and devide all 3 values (red, blue and green) by 255.
+// Then, change "X" to the value you got for deviding the "red" value by 255.
+// Change "Y" to the value you got for deviding the "blue" value by 255.
+// Change "Z" to the value you got for deviding the "green" value by 255.
+// Leave the "alpha" value as is.
+// You will need to do this 10 times in total (from "1" to "5", both for lightColor and darkColor).
+
+// Leave everything else intact in this file.
+// After completing all the above steps you can save this file and share it with paperback (this has to be done from your device you want to change the theme of and is done the same way you restore backups).
+
+{
+  "borderColor" : {
+    "lightColor" : {
+      "red" : 0.75400000810623169,
+      "alpha" : 1,
+      "blue" : 0.75400000810623169,
+      "green" : 0.75400000810623169
+    },
+    "darkColor" : {
+      "red" : 0.37099999189376831,
+      "alpha" : 1,
+      "blue" : 0.37099999189376831,
+      "green" : 0.37099999189376831
+    }
+  },
+  "accentColor" : {
+
+// 1
+
+    "lightColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
+    },
+    "darkColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
+    }
+  },
+  "foregroundColor" : {
+    "lightColor" : {
+      "red" : 0.98773139715194702,
+      "alpha" : 1,
+      "blue" : 1.0001950263977051,
+      "green" : 1.0004180669784546
+    },
+    "darkColor" : {
+      "red" : 0.090000003576278687,
+      "alpha" : 1,
+      "blue" : 0.090000003576278687,
+      "green" : 0.090000003576278687
+    }
+  },
+  "overlayColor" : {
+    "lightColor" : {
+      "red" : 0.94999998807907104,
+      "alpha" : 0.69999999999999996,
+      "blue" : 0.94999998807907104,
+      "green" : 0.94999998807907104
+    },
+    "darkColor" : {
+      "red" : 0,
+      "alpha" : 0.69999999999999996,
+      "blue" : 0,
+      "green" : 0
+    }
+  },
+  "titleTextColor" : {
+    "lightColor" : {
+      "red" : 0.12999999523162842,
+      "alpha" : 1,
+      "blue" : 0.12999999523162842,
+      "green" : 0.12999999523162842
+    },
+    "darkColor" : {
+      "red" : 0.92100000381469727,
+      "alpha" : 1,
+      "blue" : 0.92100000381469727,
+      "green" : 0.92100000381469727
+    }
+  },
+  "backgroundColor" : {
+    "lightColor" : {
+      "red" : 0.94999998807907104,
+      "alpha" : 1,
+      "blue" : 0.94999998807907104,
+      "green" : 0.94999998807907104
+    },
+    "darkColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    }
+  },
+  "buttonNormalTextColor" : {
+    "lightColor" : {
+      "red" : 0.12999999523162842,
+      "alpha" : 1,
+      "blue" : 0.12999999523162842,
+      "green" : 0.12999999523162842
+    },
+    "darkColor" : {
+      "red" : 0.92100000381469727,
+      "alpha" : 1,
+      "blue" : 0.92100000381469727,
+      "green" : 0.92100000381469727
+    }
+  },
+  "supertitleTextColor" : {
+    "lightColor" : {
+      "red" : 0.37099999189376831,
+      "alpha" : 1,
+      "blue" : 0.37099999189376831,
+      "green" : 0.37099999189376831
+    },
+    "darkColor" : {
+      "red" : 0.75400000810623169,
+      "alpha" : 1,
+      "blue" : 0.75400000810623169,
+      "green" : 0.75400000810623169
+    }
+  },
+  "buttonSelectedTextColor" : {
+    "lightColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    },
+    "darkColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    }
+  },
+  "separatorColor" : {
+    "lightColor" : {
+      "red" : 0.23529411764705882,
+      "alpha" : 0.28999999999999998,
+      "blue" : 0.2627450980392157,
+      "green" : 0.23529411764705882
+    },
+    "darkColor" : {
+      "red" : 0.32941176470588235,
+      "alpha" : 0.59999999999999998,
+      "blue" : 0.34509803921568627,
+      "green" : 0.32941176470588235
+    }
+  },
+  "bodyTextColor" : {
+    "lightColor" : {
+      "red" : 0.12999999523162842,
+      "alpha" : 1,
+      "blue" : 0.12999999523162842,
+      "green" : 0.12999999523162842
+    },
+    "darkColor" : {
+      "red" : 0.92100000381469727,
+      "alpha" : 1,
+      "blue" : 0.92100000381469727,
+      "green" : 0.92100000381469727
+    }
+  },
+  "buttonNormalBackgroundColor" : {
+    "lightColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    },
+    "darkColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    }
+  },
+  "buttonNormalBorderColor" : {
+
+// 2
+
+    "lightColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
+    },
+    "darkColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
+    }
+  },
+  "buttonSelectedBackgroundColor" : {
+
+// 3
+
+    "lightColor" : {
+      "red" : X,
+      "alpha" : 0.5,
+      "blue" : Y,
+      "green" : Z
+    },
+    "darkColor" : {
+      "red" : X,
+      "alpha" : 0.49700000882148743,
+      "blue" : Y,
+      "green" : Z
+    }
+  },
+  "buttonSelectedBorderColor" : {
+
+// 4
+
+    "lightColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
+    },
+    "darkColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
+    }
+  },
+  "subtitleTextColor" : {
+    "lightColor" : {
+      "red" : 0.37099999189376831,
+      "alpha" : 1,
+      "blue" : 0.37099999189376831,
+      "green" : 0.37099999189376831
+    },
+    "darkColor" : {
+      "red" : 0.75400000810623169,
+      "alpha" : 1,
+      "blue" : 0.75400000810623169,
+      "green" : 0.75400000810623169
+    }
+  },
+  "accentColorLight" : {
+
+// 5
+
+    "lightColor" : {
+      "red" : X,
+      "alpha" : 0.5,
+      "blue" : Y,
+      "green" : Z
+    },
+    "darkColor" : {
+      "red" : X,
+      "alpha" : 0.5,
+      "blue" : Y,
+      "green" : Z
+    }
+  }
+}
