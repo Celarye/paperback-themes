@@ -1,8 +1,9 @@
 // READ THE GUIDE BELLOW BEFORE STARTING!
-										
+
 // Basic theme:
 // This part exists from "1" to "5".
-// First get the rgb values of the color (recommended to make all of these the same color) you want to make the basic theme and devide all 3 values (red, blue and green) by 255.
+// This is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
+// First get the rgb values of the color you want to make the basic theme and devide all 3 values (red, blue and green) by 255.
 // Then, change "X" to the value you got for deviding the "red" value by 255.
 // Change "Y" to the value you got for deviding the "blue" value by 255.
 // Change "Z" to the value you got for deviding the "green" value by 255.
@@ -10,7 +11,8 @@
 // You will need to do this 10 times in total (from "1" to "5", both for lightColor and darkColor).
 
 // Leave everything else intact in this file.
-// After completing all the above steps you can save this file and share it with paperback (this has to be done from your device you want to change the theme of and is done the same way you restore backups).
+// After completing all the above steps you will need to remove every line starting with "//"
+// and then you can save this file and share it with paperback (this has to be done from your device you want to change the theme of and is done the same way you restore backups).
 
 {
   "borderColor" : {
@@ -213,7 +215,7 @@
     },
     "darkColor" : {
       "red" : X,
-      "alpha" : 0.49700000882148743,
+      "alpha" : 0.5,
       "blue" : Y,
       "green" : Z
     }
