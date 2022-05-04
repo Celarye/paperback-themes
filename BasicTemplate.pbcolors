@@ -4,9 +4,9 @@
 // This part exists from "1" to "5".
 // This is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
 // First get the rgb values of the color you want to make the basic theme and devide all 3 values (red, blue and green) by 255.
-// Then, change "X" to the value you got for deviding the "red" value by 255.
-// Change "Y" to the value you got for deviding the "blue" value by 255.
-// Change "Z" to the value you got for deviding the "green" value by 255.
+// Then, change "Xr" to the value you got for deviding the "red" value by 255.
+// Change "Yb" to the value you got for deviding the "blue" value by 255.
+// Change "Zg" to the value you got for deviding the "green" value by 255.
 // Leave the "alpha" value as is.
 // You will need to do this 10 times in total (from "1" to "5", both for lightColor and darkColor).
 
@@ -34,16 +34,16 @@
 // 1
 
     "lightColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 1,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     },
     "darkColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 1,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     }
   },
   "foregroundColor" : {
@@ -191,16 +191,16 @@
 // 2
 
     "lightColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 1,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     },
     "darkColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 1,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     }
   },
   "buttonSelectedBackgroundColor" : {
@@ -208,16 +208,16 @@
 // 3
 
     "lightColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 0.5,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     },
     "darkColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 0.5,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     }
   },
   "buttonSelectedBorderColor" : {
@@ -225,16 +225,16 @@
 // 4
 
     "lightColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 1,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     },
     "darkColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 1,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     }
   },
   "subtitleTextColor" : {
@@ -256,16 +256,16 @@
 // 5
 
     "lightColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 0.5,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     },
     "darkColor" : {
-      "red" : X,
+      "red" : Xr,
       "alpha" : 0.5,
-      "blue" : Y,
-      "green" : Z
+      "blue" : Yb,
+      "green" : Zg
     }
   }
 }
