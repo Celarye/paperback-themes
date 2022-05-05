@@ -16,17 +16,17 @@ This changes everything that's red in the standard theme (this does not include 
 2) **BasicPaperbackBlueColors**: the blue available on Paperback.moe (under settings).
 3) **BasicPaperbackRedColors**: the red available on Paperback.moe (under settings).
 4) **BasicPaperbackPurpleColors**: the purple available on Paperback.moe (under settings).
-5) **BasicCherryBlossomPinkColors**: the pink color from chery blossom trees!
+5) **BasicCherryBlossomPinkColors**: the pink color from chery blossom trees.
 
 The other type are advanced themes.
 This currently has some readability issues in the manga viewer but paper (Paperback developer) will fix this in a future update.
 These are themes that also change the color of the background, certain boxes and text:
 
 1) **AdvancedZikoBlueColors**: A theme made by @zikofurito#2238 (with me who added light mode compatibility and made some other fixes).
-2) **AdvancedCelaryePurpleColors**: Coming soon!
+2) **AdvancedCelaryeDiscordColors**: A theme based on the standard Discord colors!
 3) **AdvancedCelaryeTwitterColors**: Coming soon!
-4) **AdvancedCelaryeDiscordColors**: Coming soon!
-5) **AdvancedCelaryeAniListColors**: Coming soon!
+4) **AdvancedCelaryeAniListColors**: Coming soon!
+5) **AdvancedCelaryePurpleColors**: Coming soon!
 
 To implement any of these themes into Paperback you'll have to share the file with the Paperback app (the same way you do with a backup) from the device you want to change the theme on.
 
