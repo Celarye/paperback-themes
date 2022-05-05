@@ -11,8 +11,8 @@
 // You will need to do this 10 times in total (from "1" to "5", both for lightColor and darkColor).
 
 // Leave everything else intact in this file.
-// After completing all the above steps you will need to remove every line starting with "//"
-// and then you can save this file and share it with paperback (this has to be done from your device you want to change the theme of and is done the same way you restore backups).
+// After completing all the above steps you will need to remove every line starting with "//".
+// Then you can save this file and share it with paperback (this has to be done from your device you want to change the theme of and is done the same way you restore backups).
 
 {
   "borderColor" : {

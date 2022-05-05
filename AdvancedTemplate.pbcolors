@@ -13,18 +13,18 @@
 // You will need to do this 10 times in total (from "1" to "5", both for lightColor and darkColor).
 
 // Advanced theme:
-// This part exists from "A" to "L" but you only will need to change "B", "E", "J" and "L".
-// "B", "E", "J" and "L" all include an explanation of what these values change in paperback (in words and pictures).
-// First get the rgb values of each color you want to make "B", "E", "J" and "L" and devide all 3 values (red, blue and green) by 255.
+// This part exists from "A" to "L" but you only will need to change "B", "C", "E", "J" and "L".
+// "B", "C", "E", "J" and "L" all include an explanation of what these values change in paperback (in words and pictures).
+// First get the rgb values of each color you want to make "B", "C"(="E") "E", "J" and "L" and devide all 3 values (red, blue and green) by 255.
 // Then, change "X" to the value you got for deviding the "red" value by 255.
 // Change "Y" to the value you got for deviding the "blue" value by 255.
 // Change "Z" to the value you got for deviding the "green" value by 255.
 // Leave the "alpha" value as is.
-// You will need to do this 8 times in total (for "B", "E", "J" and "L", both for lightColor and darkColor)
+// You will need to do this 10 times in total (for "B", "C", "E", "J" and "L", both for lightColor and darkColor).
 
 // Leave everything else intact in this file.
-// After completing all the above steps you will need to remove every line starting with "//"
-// and then you can save this file and share it with paperback (this has to be done from your device you want to change the theme of and is done the same way you restore backups).
+// After completing all the above steps you will need to remove every line starting with "//".
+// Then you can save this file and share it with paperback (this has to be done from your device you want to change the theme of and is done the same way you restore backups).
 
 {
   "borderColor" : {
@@ -63,8 +63,7 @@
   },
   "foregroundColor" : {
 
-// B: The boxes https://imgur.com/a/IzMuE0c (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear"))
-// Changing this might hinder the readability in the settings, but Paper will implement a fix in the next update!
+// B: The boxes https://imgur.com/a/IzMuE0c (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
 
     "lightColor" : {
       "red" : X,
@@ -81,19 +80,19 @@
   },
   "overlayColor" : {
 
-// C: Overlay when refreshing library, best to leave values as is.
+// C: Overlay when refreshing library. Change "X", "Y" and "Z" to the same values you chooose for the background ("E").
 
     "lightColor" : {
-      "red" : 0.94999998807907104,
+      "red" : X,
       "alpha" : 0.69999999999999996,
-      "blue" : 0.94999998807907104,
-      "green" : 0.94999998807907104
+      "blue" : Y,
+      "green" : Z
     },
     "darkColor" : {
-      "red" : 0,
+      "red" : X,
       "alpha" : 0.69999999999999996,
-      "blue" : 0,
-      "green" : 0
+      "blue" : Y,
+      "green" : Z
     }
   },
   "titleTextColor" : {
@@ -115,7 +114,7 @@
   },
   "backgroundColor" : {
 
-// E: The background https://imgur.com/a/6ErnRpk (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear"))
+// E: The background https://imgur.com/a/6ErnRpk (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
 
     "lightColor" : {
       "red" : X,
@@ -200,8 +199,8 @@
   },
   "bodyTextColor" : {
 
-// J: Main text https://imgur.com/a/1syDeob (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear"))
-// Changing this might hinder the readability in the manga viewer, but Paper will implement a fix in the next update!
+// J: Main text https://imgur.com/a/1syDeob (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
+// Changing this might hinder the readability in the manga viewer, but Paper will implement a fix in a future update!
 
     "lightColor" : {
       "red" : X,
@@ -286,7 +285,7 @@
   },
   "subtitleTextColor" : {
 
-// L: Secondary text https://imgur.com/a/N3Azw8R (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear"))
+// L: Secondary text https://imgur.com/a/N3Azw8R (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
 
     "lightColor" : {
       "red" : X,
