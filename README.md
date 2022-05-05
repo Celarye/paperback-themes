@@ -22,14 +22,15 @@ The other type are advanced themes.
 This currently has some readability issues in the manga viewer but paper (Paperback developer) will fix this in a future update.
 These are themes that also change the color of the background, certain boxes and text:
 
-1) **AdvancedZikoBlueColors**: A theme made by @zikofurito#2238 (with me who added light mode compatibility and made some other fixes).
-2) **AdvancedCelaryeDiscordColors**: A theme based on the standard Discord colors!
-3) **AdvancedCelaryeTwitterColors**: Coming soon!
-4) **AdvancedCelaryeAniListColors**: Coming soon!
-5) **AdvancedCelaryePurpleColors**: Coming soon!
+1) **AdvancedBlueColors**: A theme made by @zikofurito#2238 (with me who added light mode compatibility and made some other fixes).
+2) **AdvancedDiscordColors**: A theme based on the standard Discord colors.
+3) **AdvancedDiscordColors**: A theme based on the standard Discord colors but with the basic theme being pink!
+4) **AdvancedTwitterColors**: Coming soon!
+5) **AdvancedAniListColors**: Coming soon!
+6) **AdvancedPurpleColors**: Coming soon!
 
 To implement any of these themes into Paperback you'll have to share the file with the Paperback app (the same way you do with a backup) from the device you want to change the theme on.
 
-I also made a template file for both the basic theme and advanced theme so you can easily make your own theme, this are the "**BasicTemplate**" and "**AdvancedTemplate**" files. I recommend opening this with a text reader (like Notepad(++)) on PC or the QuickText app on IOS. A guide on how to use it can be found in the file itself.
+I also made a template file for both the basic theme and advanced theme so you can easily make your own theme, this are the "**BasicTemplate**" and "**AdvancedTemplate**" files adn can be found in the Github repository. I recommend opening this with a text reader (like Notepad(++)) on PC or the QuickText app on IOS. A guide on how to use it can be found in the file itself.
 
 You may always DM me on discord (Celarye#3602) regarding questions about this.
