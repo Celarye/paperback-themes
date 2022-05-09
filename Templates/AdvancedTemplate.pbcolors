@@ -182,9 +182,9 @@
   },
   "separatorColor" : {
 
-// I: Unknown what this changes, leave values as is.
+// I: Thin line between certain elements (visble in "Discover", "History" and the manga viewer) (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
 
-    "lightColor" : {
+"lightColor" : {
       "red" : 0.23529411764705882,
       "alpha" : 0.28999999999999998,
       "blue" : 0.2627450980392157,
