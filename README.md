@@ -26,8 +26,8 @@ These are themes that also change the color of the background, certain boxes and
 2) **DarkDiscord**: A theme based on the dark Discord theme.
 3) **DarkDiscordAndPink**: A theme based on the dark Discord theme but with pink elements.
 4) **NEW: DefaultTwitter**: A theme based on the default Twitter theme!
-4) **DimTwitter**: A theme based on the dim Twitter theme, coming soon!
-4) **LightsOutTwitter**: A theme based on the lights out Twitter theme, coming soon!
+5) **DimTwitter**: A theme based on the dim Twitter theme, coming soon!
+6) **LightsOutTwitter**: A theme based on the lights out Twitter theme, coming soon!
 7) **LightAniList**: A theme based on the light AniList theme, coming soon!
 8) **DarkAniList**: A theme based on the dark AniList theme, coming soon!
 9) **HighContrastAniList**: A theme based on the high contrast AniList theme (automail), coming soon!
