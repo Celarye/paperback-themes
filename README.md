@@ -17,7 +17,7 @@ This changes everything that's red in the standard theme (this does not include 
 3) **PaperbackRed**: A theme based on the red theme on Paperback.moe.
 4) **PaperbackPurple**: A theme based on the purple theme on Paperback.moe.
 5) **CherryBlossomPink**: A theme based on the pink color of cherry blossom trees.
-6) **NEW: Cyan**: A theme based on the cyan color!
+6) **NEW: Turquoise**: A theme based on the color turquoise!
 
 The other type are advanced themes.
 These are themes that also change the color of the background, certain boxes, text and other elements:
@@ -25,7 +25,7 @@ These are themes that also change the color of the background, certain boxes, te
 1) **BlueDiscord**: A theme made by @zikofurito#2238 (with me who added light mode compatibility and made some other fixes) based on a blue discord theme.
 2) **DarkDiscord**: A theme based on the dark Discord theme.
 3) **DarkDiscordAndPink**: A theme based on the dark Discord theme but with pink elements.
-4) **DefaultTwitter**: A theme based on the default Twitter theme!
+4) **DefaultTwitter**: A theme based on the default Twitter theme.
 5) **AniList**: A theme based on the AniList theme, coming soon!
 
 
