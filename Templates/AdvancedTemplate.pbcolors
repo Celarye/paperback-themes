@@ -13,35 +13,35 @@
 // You will need to do this 10 times in total (from "1" to "5", both for lightColor and darkColor).
 
 // Advanced theme:
-// This part exists from "A" to "L" but you only will need to change "B", "C", "E", "J" and "L".
-// "B", "C", "E", "J" and "L" all include an explanation of what these values change in paperback (in words and pictures).
-// First get the rgb values of each color you want to make "B", "C"(="E") "E", "J" and "L" and devide all 3 values (red, blue and green) by 255.
+// This part exists from "A" to "L".
+// They all include an explanation of what these values change in paperback (in words and pictures).
+// First get the rgb values of each color you want to make them and devide all 3 values (red, blue and green) by 255.
 // Then, change "X" to the value you got for deviding the "red" value by 255.
 // Change "Y" to the value you got for deviding the "blue" value by 255.
 // Change "Z" to the value you got for deviding the "green" value by 255.
 // Leave the "alpha" value as is.
-// You will need to do this 10 times in total (for "B", "C", "E", "J" and "L", both for lightColor and darkColor).
 
 // Leave everything else intact in this file.
 // After completing all the above steps you will need to remove every line starting with "//".
 // Then you can save this file and share it with paperback (this has to be done from your device you want to change the theme of and is done the same way you restore backups).
+// And feel free to message Celarye#3602 on Discord with the theme you made so he can add it to the public repository!
 
 {
   "borderColor" : {
 
-// A: Unknown what this changes, leave values as is.
+// A: This value is not used at the moment, leave as is.
 
     "lightColor" : {
-      "red" : 0.75400000810623169,
+      "red" : 0.754,
       "alpha" : 1,
-      "blue" : 0.75400000810623169,
-      "green" : 0.75400000810623169
+      "blue" : 0.754,
+      "green" : 0.754
     },
     "darkColor" : {
-      "red" : 0.37099999189376831,
+      "red" : 0.371,
       "alpha" : 1,
-      "blue" : 0.37099999189376831,
-      "green" : 0.37099999189376831
+      "blue" : 0.371,
+      "green" : 0.371
     }
   },
   "accentColor" : {
@@ -80,36 +80,36 @@
   },
   "overlayColor" : {
 
-// C: Overlay when refreshing library. Change "X", "Y" and "Z" to the same values you chooose for the background ("E").
+// C: Overlay when refreshing library. Change "X", "Y" and "Z" to the same values you choose for the background ("E").
 
     "lightColor" : {
       "red" : X,
-      "alpha" : 0.69999999999999996,
+      "alpha" : 0.7,
       "blue" : Y,
       "green" : Z
     },
     "darkColor" : {
       "red" : X,
-      "alpha" : 0.69999999999999996,
+      "alpha" : 0.7,
       "blue" : Y,
       "green" : Z
     }
   },
   "titleTextColor" : {
 
-// D: Unknown what this changes, leave values as is.
+// D: This value is not used at the moment, leave as is.
 
     "lightColor" : {
-      "red" : 0.12999999523162842,
+      "red" : 0.130,
       "alpha" : 1,
-      "blue" : 0.12999999523162842,
-      "green" : 0.12999999523162842
+      "blue" : 0.130,
+      "green" : 0.130
     },
     "darkColor" : {
-      "red" : 0.92100000381469727,
+      "red" : 0.921,
       "alpha" : 1,
-      "blue" : 0.92100000381469727,
-      "green" : 0.92100000381469727
+      "blue" : 0.921,
+      "green" : 0.921
     }
   },
   "backgroundColor" : {
@@ -134,33 +134,33 @@
 // F: Unknown what this changes, leave values as is.
 
     "lightColor" : {
-      "red" : 0.12999999523162842,
+      "red" : 0.130,
       "alpha" : 1,
-      "blue" : 0.12999999523162842,
-      "green" : 0.12999999523162842
+      "blue" : 0.130,
+      "green" : 0.130
     },
     "darkColor" : {
-      "red" : 0.92100000381469727,
+      "red" : 0.921,
       "alpha" : 1,
-      "blue" : 0.92100000381469727,
-      "green" : 0.92100000381469727
+      "blue" : 0.921,
+      "green" : 0.921
     }
   },
   "supertitleTextColor" : {
 
-// G: Unknown what this changes, leave values as is.
+// G: This value is not used at the moment, leave as is.
 
     "lightColor" : {
-      "red" : 0.37099999189376831,
+      "red" : 0.371,
       "alpha" : 1,
-      "blue" : 0.37099999189376831,
-      "green" : 0.37099999189376831
+      "blue" : 0.371,
+      "green" : 0.371
     },
     "darkColor" : {
-      "red" : 0.75400000810623169,
+      "red" : 0.754,
       "alpha" : 1,
-      "blue" : 0.75400000810623169,
-      "green" : 0.75400000810623169
+      "blue" : 0.754,
+      "green" : 0.754
     }
   },
   "buttonSelectedTextColor" : {
@@ -182,19 +182,19 @@
   },
   "separatorColor" : {
 
-// I: Thin line between certain elements (visble in "Discover", "History" and the manga viewer) (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
+// I: Thin line between certain elements (visble in "Discover", "History" and the manga viewer).
 
 "lightColor" : {
-      "red" : 0.23529411764705882,
-      "alpha" : 0.28999999999999998,
-      "blue" : 0.2627450980392157,
-      "green" : 0.23529411764705882
+      "red" : 0.235,
+      "alpha" : 0.3,
+      "blue" : 0.263,
+      "green" : 0.235
     },
     "darkColor" : {
-      "red" : 0.32941176470588235,
-      "alpha" : 0.59999999999999998,
-      "blue" : 0.34509803921568627,
-      "green" : 0.32941176470588235
+      "red" : 0.329,
+      "alpha" : 0.6,
+      "blue" : 0.345,
+      "green" : 0.329
     }
   },
   "bodyTextColor" : {
