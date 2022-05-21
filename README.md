@@ -1,5 +1,5 @@
 # Paperback-themes
-### This is a repository containing all current public Paperback themes and templates so you can make your own theme yourself.
+### This is a repository containing all public Paperback themes and templates so you can make your own theme yourself.
 
 ---
 
