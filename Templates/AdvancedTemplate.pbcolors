@@ -1,25 +1,26 @@
 // READ THE GUIDE BELLOW BEFORE STARTING!
 
-// This file is devided in 2 parts: "Basic theme" and "Advanced theme".
+// This file is divided in 2 parts: "Basic theme" and "Advanced theme".
 
 // Basic theme:
 // This part exists from "1" to "5".
 // This is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
-// First get the rgb values of the color you want to make the basic theme and devide all 3 values (red, blue and green) by 255.
-// Then, change "Xr" to the value you got for deviding the "red" value by 255.
-// Change "Yb" to the value you got for deviding the "blue" value by 255.
-// Change "Zg" to the value you got for deviding the "green" value by 255.
+// First get the rgb values of the color you want to make the basic theme and divide all 3 values (red, blue and green) by 255.
+// Then, change "Xr" to the value you got for dividing the "red" value by 255.
+// Change "Yb" to the value you got for dividing the "blue" value by 255.
+// Change "Zg" to the value you got for dividing the "green" value by 255.
 // Leave the "alpha" value as is.
 // You will need to do this 10 times in total (from "1" to "5", both for lightColor and darkColor).
 
 // Advanced theme:
 // This part exists from "A" to "L".
 // They all include an explanation of what these values change in paperback (in words and pictures).
-// First get the rgb values of each color you want to make them and devide all 3 values (red, blue and green) by 255.
-// Then, change "X" to the value you got for deviding the "red" value by 255.
-// Change "Y" to the value you got for deviding the "blue" value by 255.
-// Change "Z" to the value you got for deviding the "green" value by 255.
+// First get the rgb values of each color you want to make them and divide all 3 values (red, blue and green) by 255.
+// Then, change "X" to the value you got for dividing the "red" value by 255.
+// Change "Y" to the value you got for dividing the "blue" value by 255.
+// Change "Z" to the value you got for dividing the "green" value by 255.
 // Leave the "alpha" value as is.
+// It is recommended to make the theme both light and dark theme compatible.
 
 // Leave everything else intact in this file.
 // After completing all the above steps you will need to remove every line starting with "//".
@@ -29,7 +30,7 @@
 {
   "borderColor" : {
 
-// A: This value is not used at the moment, leave as is.
+// A: This is not used at the moment, leave values as is.
 
     "lightColor" : {
       "red" : 0.754,
@@ -97,7 +98,7 @@
   },
   "titleTextColor" : {
 
-// D: This value is not used at the moment, leave as is.
+// D: This is not used at the moment, leave values as is.
 
     "lightColor" : {
       "red" : 0.130,
@@ -148,7 +149,7 @@
   },
   "supertitleTextColor" : {
 
-// G: This value is not used at the moment, leave as is.
+// G: This is not used at the moment, leave values as is.
 
     "lightColor" : {
       "red" : 0.371,
@@ -182,7 +183,7 @@
   },
   "separatorColor" : {
 
-// I: Thin line between certain elements (visble in "Discover", "History" and the manga viewer).
+// I: Thin line between certain elements (visible in "Discover", "History" and the manga viewer).
 
 "lightColor" : {
       "red" : 0.235,
@@ -200,7 +201,6 @@
   "bodyTextColor" : {
 
 // J: Main text https://imgur.com/a/1syDeob (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
-// Changing this might hinder the readability in the manga viewer, but Paper will implement a fix in a future update!
 
     "lightColor" : {
       "red" : X,
