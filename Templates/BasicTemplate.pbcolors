@@ -1,15 +1,15 @@
 // READ THE GUIDE BELLOW BEFORE STARTING!
 
 // Basic theme:
-// This part exists from "1" to "6".
+// The basic theme exists from "1" to "6".
 // "1" to "5" is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
-// 6 is the text inside of the red boxes in the standard theme, it is recommended to only change this if it is hard to read. 
-// First get the rgb values of the color you want to make the basic theme and divide all 3 values (red, blue and green) by 255.
+// "6" is the text inside of the red boxes/buttons in the standard theme.
+// First get the rgb values of the color you want to make "1" to "5" and divide all 3 values (red, blue and green) by 255.
 // Then, change "Xr" to the value you got for dividing the "red" value by 255.
 // Change "Yb" to the value you got for dividing the "blue" value by 255.
 // Change "Zg" to the value you got for dividing the "green" value by 255.
 // Leave the "alpha" value as is.
-// You will need to do this 10 times in total (from "1" to "5", both for lightColor and darkColor).
+// If the color you choose made it hard to read the text inside of the boxes/buttons ("6"), you should change that the same way as you did for "1" to "5" but with a color that increases the readability.
 
 // Leave everything else intact in this file.
 // After completing all the above steps you will need to remove every line starting with "//".
