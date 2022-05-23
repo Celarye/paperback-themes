@@ -1,8 +1,9 @@
 // READ THE GUIDE BELLOW BEFORE STARTING!
 
 // Basic theme:
-// This part exists from "1" to "5".
-// This is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
+// This part exists from "1" to "6".
+// "1" to "5" is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
+// 6 is the text inside of the red boxes in the standard theme, it is recommended to only change this if it is hard to read. 
 // First get the rgb values of the color you want to make the basic theme and divide all 3 values (red, blue and green) by 255.
 // Then, change "Xr" to the value you got for dividing the "red" value by 255.
 // Change "Yb" to the value you got for dividing the "blue" value by 255.
@@ -30,10 +31,10 @@
       "green" : 0.371
     }
   },
-  "accentColor" : {
 
 // 1
 
+  "accentColor" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 1,
@@ -187,10 +188,10 @@
       "green" : 0
     }
   },
-  "buttonNormalBorderColor" : {
 
 // 2
 
+  "buttonNormalBorderColor" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 1,
@@ -204,10 +205,10 @@
       "green" : Zg
     }
   },
-  "buttonSelectedBackgroundColor" : {
 
 // 3
 
+  "buttonSelectedBackgroundColor" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 0.5,
@@ -221,10 +222,10 @@
       "green" : Zg
     }
   },
-  "buttonSelectedBorderColor" : {
 
 // 4
 
+  "buttonSelectedBorderColor" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 1,
@@ -252,10 +253,10 @@
       "green" : 0.754
     }
   },
-  "accentColorLight" : {
 
 // 5
 
+  "accentColorLight" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 0.5,
@@ -267,6 +268,23 @@
       "alpha" : 0.5,
       "blue" : Yb,
       "green" : Zg
+    }
+  },
+
+// 6
+
+  "accentTextColor" : {
+    "lightColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
+    },
+    "darkColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
     }
   }
 }

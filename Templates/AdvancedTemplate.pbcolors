@@ -3,8 +3,9 @@
 // This file is divided in 2 parts: "Basic theme" and "Advanced theme".
 
 // Basic theme:
-// This part exists from "1" to "5".
-// This is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
+// This part exists from "1" to "6".
+// "1" to "5" is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
+// 6 is the text inside of the red boxes in the standard theme, it is recommended to only change this if it is hard to read. 
 // First get the rgb values of the color you want to make the basic theme and divide all 3 values (red, blue and green) by 255.
 // Then, change "Xr" to the value you got for dividing the "red" value by 255.
 // Change "Yb" to the value you got for dividing the "blue" value by 255.
@@ -13,7 +14,7 @@
 // You will need to do this 10 times in total (from "1" to "5", both for lightColor and darkColor).
 
 // Advanced theme:
-// This part exists from "A" to "L".
+// This part exists from "A" to "M".
 // They all include an explanation of what these values change in paperback (in words and pictures).
 // First get the rgb values of each color you want to make them and divide all 3 values (red, blue and green) by 255.
 // Then, change "X" to the value you got for dividing the "red" value by 255.
@@ -28,10 +29,10 @@
 // And feel free to message Celarye#3602 on Discord with the theme you made so he can add it to the public repository!
 
 {
-  "borderColor" : {
 
 // A: This is not used at the moment, leave values as is.
 
+  "borderColor" : {
     "lightColor" : {
       "red" : 0.754,
       "alpha" : 1,
@@ -45,10 +46,10 @@
       "green" : 0.371
     }
   },
-  "accentColor" : {
 
 // 1
 
+  "accentColor" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 1,
@@ -62,10 +63,10 @@
       "green" : Zg
     }
   },
-  "foregroundColor" : {
 
 // B: The boxes https://imgur.com/a/IzMuE0c (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
 
+  "foregroundColor" : {
     "lightColor" : {
       "red" : X,
       "alpha" : 1,
@@ -79,10 +80,10 @@
       "green" : Z
     }
   },
-  "overlayColor" : {
 
 // C: Overlay when refreshing library. Change "X", "Y" and "Z" to the same values you choose for the background ("E").
 
+  "overlayColor" : {
     "lightColor" : {
       "red" : X,
       "alpha" : 0.7,
@@ -96,11 +97,11 @@
       "green" : Z
     }
   },
-  "titleTextColor" : {
 
 // D: This is not used at the moment, leave values as is.
 
-    "lightColor" : {
+  "titleTextColor" : {
+   "lightColor" : {
       "red" : 0.130,
       "alpha" : 1,
       "blue" : 0.130,
@@ -113,10 +114,10 @@
       "green" : 0.921
     }
   },
-  "backgroundColor" : {
 
 // E: The background https://imgur.com/a/6ErnRpk (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
 
+  "backgroundColor" : {
     "lightColor" : {
       "red" : X,
       "alpha" : 1,
@@ -130,10 +131,10 @@
       "green" : Z
     }
   },
+
+// F: This is not used at the moment, leave values as is.
+
   "buttonNormalTextColor" : {
-
-// F: Unknown what this changes, leave values as is.
-
     "lightColor" : {
       "red" : 0.130,
       "alpha" : 1,
@@ -147,10 +148,10 @@
       "green" : 0.921
     }
   },
-  "supertitleTextColor" : {
 
 // G: This is not used at the moment, leave values as is.
 
+  "supertitleTextColor" : {
     "lightColor" : {
       "red" : 0.371,
       "alpha" : 1,
@@ -164,10 +165,10 @@
       "green" : 0.754
     }
   },
+
+// H: This is not used at the moment, leave values as is.
+
   "buttonSelectedTextColor" : {
-
-// H: Unknown what this changes, leave values as is.
-
     "lightColor" : {
       "red" : 1,
       "alpha" : 1,
@@ -181,11 +182,11 @@
       "green" : 1
     }
   },
-  "separatorColor" : {
 
 // I: Thin line between certain elements (visible in "Discover", "History" and the manga viewer).
 
-"lightColor" : {
+  "separatorColor" : {
+   "lightColor" : {
       "red" : 0.235,
       "alpha" : 0.3,
       "blue" : 0.263,
@@ -198,10 +199,10 @@
       "green" : 0.329
     }
   },
+
+  // J: Main text https://imgur.com/a/1syDeob (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
+
   "bodyTextColor" : {
-
-// J: Main text https://imgur.com/a/1syDeob (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
-
     "lightColor" : {
       "red" : X,
       "alpha" : 1,
@@ -215,10 +216,10 @@
       "green" : Z
     }
   },
+
+// K: This is not used at the moment, leave values as is.
+
   "buttonNormalBackgroundColor" : {
-
-// K: Unknown what this changes, leave values as is.
-
     "lightColor" : {
       "red" : 1,
       "alpha" : 1,
@@ -232,10 +233,10 @@
       "green" : 0
     }
   },
-  "buttonNormalBorderColor" : {
 
 // 2
 
+  "buttonNormalBorderColor" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 1,
@@ -249,10 +250,10 @@
       "green" : Zg
     }
   },
-  "buttonSelectedBackgroundColor" : {
 
 // 3
 
+  "buttonSelectedBackgroundColor" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 0.5,
@@ -266,10 +267,10 @@
       "green" : Zg
     }
   },
-  "buttonSelectedBorderColor" : {
 
 // 4
 
+  "buttonSelectedBorderColor" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 1,
@@ -283,10 +284,10 @@
       "green" : Zg
     }
   },
-  "subtitleTextColor" : {
 
 // L: Secondary text https://imgur.com/a/N3Azw8R (everything in red is what will change, this does not include buttons which have destructive functions (like "Clear")).
 
+  "subtitleTextColor" : {
     "lightColor" : {
       "red" : X,
       "alpha" : 1,
@@ -300,10 +301,10 @@
       "green" : Z
     }
   },
-  "accentColorLight" : {
-
+  
 // 5
 
+  "accentColorLight" : {
     "lightColor" : {
       "red" : Xr,
       "alpha" : 0.5,
@@ -315,6 +316,23 @@
       "alpha" : 0.5,
       "blue" : Yb,
       "green" : Zg
+    }
+  },
+
+// 6
+
+  "accentTextColor" : {
+    "lightColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
+    },
+    "darkColor" : {
+      "red" : X,
+      "alpha" : 1,
+      "blue" : Y,
+      "green" : Z
     }
   }
 }
