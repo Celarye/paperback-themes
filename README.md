@@ -17,7 +17,8 @@ This changes everything that's red in the standard theme (this does not include 
 3) **PaperbackRed**: A theme based on the red theme on Paperback.moe.
 4) **PaperbackPurple**: A theme based on the purple theme on Paperback.moe.
 5) **CherryBlossomPink**: A theme based on the pink color of cherry blossom trees.
-6) **NEW: Turquoise**: A theme based on the color turquoise!
+6) **Turquoise**: A theme based on the color turquoise.
+7) **NEW: Green**: A theme based on the color green!
 
 The other type are advanced themes.
 These are themes that also change the color of the background, certain boxes, text and other elements:
