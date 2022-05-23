@@ -236,5 +236,19 @@
       "blue" : 0.407,
       "green" : 0.415
     }
+  },
+  "accentTextColor" : {
+    "lightColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    },
+    "darkColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    }
   }
 }
