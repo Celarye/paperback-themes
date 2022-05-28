@@ -1,15 +1,15 @@
 // READ THE GUIDE BELLOW BEFORE STARTING!
 
 // Basic theme:
-// The basic theme exists from "1" to "6".
-// "1" to "5" is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
-// "6" is the text inside of the red boxes/buttons in the standard theme.
-// First get the rgb values of the color you want to make "1" to "5" and divide all 3 values (red, blue and green) by 255.
-// Then, change "Xr" to the value you got for dividing the "red" value by 255.
-// Change "Yb" to the value you got for dividing the "blue" value by 255.
-// Change "Zg" to the value you got for dividing the "green" value by 255.
+// The basic theme exists from "1" to "3".
+// "1" and "3" is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
+// "2" is the text inside of the red boxes/buttons in the standard theme.
+// First get the rgb values of the color you want to make "1" and "3" and divide all 3 values (red, blue and green) by 255.
+// Then, change "Xa" to the value you got for dividing the "red" value by 255.
+// Change "Ya" to the value you got for dividing the "blue" value by 255.
+// Change "Za" to the value you got for dividing the "green" value by 255.
 // Leave the "alpha" value as is.
-// If the color you choose made it hard to read the text inside of the boxes/buttons ("6"), you should change that the same way as you did for "1" to "5" but with a color that increases the readability.
+// Change "2" the same way as you did for "1" and "3" but with a color that causes the text inside the boxes/buttons of the basic theme to be readable.
 
 // Leave everything else intact in this file.
 // After completing all the above steps you will need to remove every line starting with "//".
@@ -17,35 +17,55 @@
 // And feel free to message Celarye#3602 on Discord with the theme you made so he can add it to the public repository!
 
 {
-  "borderColor" : {
-    "lightColor" : {
-      "red" : 0.754,
-      "alpha" : 1,
-      "blue" : 0.754,
-      "green" : 0.754
-    },
-    "darkColor" : {
-      "red" : 0.371,
-      "alpha" : 1,
-      "blue" : 0.371,
-      "green" : 0.371
-    }
-  },
 
 // 1
 
   "accentColor" : {
     "lightColor" : {
-      "red" : Xr,
+      "red" : Xa,
       "alpha" : 1,
-      "blue" : Yb,
-      "green" : Zg
+      "blue" : Ya,
+      "green" : Za
     },
     "darkColor" : {
-      "red" : Xr,
+      "red" : Xa,
       "alpha" : 1,
-      "blue" : Yb,
-      "green" : Zg
+      "blue" : Ya,
+      "green" : Za
+    }
+  },
+
+// 2
+
+  "accentTextColor" : {
+    "lightColor" : {
+      "red" : Xt,
+      "alpha" : 1,
+      "blue" : Yt,
+      "green" : Zt
+    },
+    "darkColor" : {
+      "red" : Xt,
+      "alpha" : 1,
+      "blue" : Yt,
+      "green" : Zt
+    }
+  },
+
+// 3: Version r42 and onwards does not use this anymore, however it is recommended to still include this so people who are on older versions of the app can also use the theme.
+
+  "accentColorLight" : {
+    "lightColor" : {
+      "red" : Xa,
+      "alpha" : 0.5,
+      "blue" : Ya,
+      "green" : Za
+    },
+    "darkColor" : {
+      "red" : Xa,
+      "alpha" : 0.5,
+      "blue" : Ya,
+      "green" : Za
     }
   },
   "foregroundColor" : {
@@ -62,34 +82,6 @@
       "green" : 0.090
     }
   },
-  "overlayColor" : {
-    "lightColor" : {
-      "red" : 0.950,
-      "alpha" : 0.7,
-      "blue" : 0.950,
-      "green" : 0.950
-    },
-    "darkColor" : {
-      "red" : 0,
-      "alpha" : 0.7,
-      "blue" : 0,
-      "green" : 0
-    }
-  },
-  "titleTextColor" : {
-    "lightColor" : {
-      "red" : 0.130,
-      "alpha" : 1,
-      "blue" : 0.130,
-      "green" : 0.130
-    },
-    "darkColor" : {
-      "red" : 0.921,
-      "alpha" : 1,
-      "blue" : 0.921,
-      "green" : 0.921
-    }
-  },
   "backgroundColor" : {
     "lightColor" : {
       "red" : 0.950,
@@ -104,50 +96,22 @@
       "green" : 0
     }
   },
-  "buttonNormalTextColor" : {
+  "overlayColor" : {
     "lightColor" : {
-      "red" : 0.130,
-      "alpha" : 1,
-      "blue" : 0.130,
-      "green" : 0.130
+      "red" : 0.950,
+      "alpha" : 0.7,
+      "blue" : 0.950,
+      "green" : 0.950
     },
     "darkColor" : {
-      "red" : 0.921,
-      "alpha" : 1,
-      "blue" : 0.921,
-      "green" : 0.921
-    }
-  },
-  "supertitleTextColor" : {
-    "lightColor" : {
-      "red" : 0.371,
-      "alpha" : 1,
-      "blue" : 0.371,
-      "green" : 0.371
-    },
-    "darkColor" : {
-      "red" : 0.754,
-      "alpha" : 1,
-      "blue" : 0.754,
-      "green" : 0.754
-    }
-  },
-  "buttonSelectedTextColor" : {
-    "lightColor" : {
-      "red" : 1,
-      "alpha" : 1,
-      "blue" : 1,
-      "green" : 1
-    },
-    "darkColor" : {
-      "red" : 1,
-      "alpha" : 1,
-      "blue" : 1,
-      "green" : 1
+      "red" : 0,
+      "alpha" : 0.7,
+      "blue" : 0,
+      "green" : 0
     }
   },
   "separatorColor" : {
-    "lightColor" : {
+   "lightColor" : {
       "red" : 0.235,
       "alpha" : 0.3,
       "blue" : 0.263,
@@ -174,71 +138,6 @@
       "green" : 0.921
     }
   },
-  "buttonNormalBackgroundColor" : {
-    "lightColor" : {
-      "red" : 1,
-      "alpha" : 1,
-      "blue" : 1,
-      "green" : 1
-    },
-    "darkColor" : {
-      "red" : 0,
-      "alpha" : 1,
-      "blue" : 0,
-      "green" : 0
-    }
-  },
-
-// 2
-
-  "buttonNormalBorderColor" : {
-    "lightColor" : {
-      "red" : Xr,
-      "alpha" : 1,
-      "blue" : Yb,
-      "green" : Zg
-    },
-    "darkColor" : {
-      "red" : Xr,
-      "alpha" : 1,
-      "blue" : Yb,
-      "green" : Zg
-    }
-  },
-
-// 3
-
-  "buttonSelectedBackgroundColor" : {
-    "lightColor" : {
-      "red" : Xr,
-      "alpha" : 0.5,
-      "blue" : Yb,
-      "green" : Zg
-    },
-    "darkColor" : {
-      "red" : Xr,
-      "alpha" : 0.5,
-      "blue" : Yb,
-      "green" : Zg
-    }
-  },
-
-// 4
-
-  "buttonSelectedBorderColor" : {
-    "lightColor" : {
-      "red" : Xr,
-      "alpha" : 1,
-      "blue" : Yb,
-      "green" : Zg
-    },
-    "darkColor" : {
-      "red" : Xr,
-      "alpha" : 1,
-      "blue" : Yb,
-      "green" : Zg
-    }
-  },
   "subtitleTextColor" : {
     "lightColor" : {
       "red" : 0.371,
@@ -253,38 +152,130 @@
       "green" : 0.754
     }
   },
-
-// 5
-
-  "accentColorLight" : {
-    "lightColor" : {
-      "red" : Xr,
-      "alpha" : 0.5,
-      "blue" : Yb,
-      "green" : Zg
+  "titleTextColor" : {
+   "lightColor" : {
+      "red" : 0.130,
+      "alpha" : 1,
+      "blue" : 0.130,
+      "green" : 0.130
     },
     "darkColor" : {
-      "red" : Xr,
-      "alpha" : 0.5,
-      "blue" : Yb,
-      "green" : Zg
+      "red" : 0.921,
+      "alpha" : 1,
+      "blue" : 0.921,
+      "green" : 0.921
     }
   },
-
-// 6
-
-  "accentTextColor" : {
+  "supertitleTextColor" : {
     "lightColor" : {
-      "red" : X,
+      "red" : 0.371,
       "alpha" : 1,
-      "blue" : Y,
-      "green" : Z
+      "blue" : 0.371,
+      "green" : 0.371
     },
     "darkColor" : {
-      "red" : X,
+      "red" : 0.754,
       "alpha" : 1,
-      "blue" : Y,
-      "green" : Z
+      "blue" : 0.754,
+      "green" : 0.754
+    }
+  },
+  "buttonNormalTextColor" : {
+    "lightColor" : {
+      "red" : 0.130,
+      "alpha" : 1,
+      "blue" : 0.130,
+      "green" : 0.130
+    },
+    "darkColor" : {
+      "red" : 0.921,
+      "alpha" : 1,
+      "blue" : 0.921,
+      "green" : 0.921
+    }
+  },
+  "buttonSelectedTextColor" : {
+    "lightColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    },
+    "darkColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    }
+  },
+  "buttonNormalBackgroundColor" : {
+    "lightColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    },
+    "darkColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    }
+  },
+  "buttonNormalBorderColor" : {
+    "lightColor" : {
+      "red" : 0.991,
+      "alpha" : 1,
+      "blue" : 0.407,
+      "green" : 0.415
+    },
+    "darkColor" : {
+      "red" : 0.991,
+      "alpha" : 1,
+      "blue" : 0.407,
+      "green" : 0.415
+    }
+  },
+  "buttonSelectedBackgroundColor" : {
+    "lightColor" : {
+      "red" : 0.991,
+      "alpha" : 0.5,
+      "blue" : 0.407,
+      "green" : 0.415
+    },
+    "darkColor" : {
+      "red" : 0.9919,
+      "alpha" : 0.5,
+      "blue" : 0.407,
+      "green" : 0.415
+    }
+  },
+  "buttonSelectedBorderColor" : {
+    "lightColor" : {
+      "red" : 0.991,
+      "alpha" : 1,
+      "blue" : 0.407,
+      "green" : 0.415
+    },
+    "darkColor" : {
+      "red" : 0.991,
+      "alpha" : 1,
+      "blue" : 0.407,
+      "green" : 0.415
+    }
+  },
+  "borderColor" : {
+    "lightColor" : {
+      "red" : 0.754,
+      "alpha" : 1,
+      "blue" : 0.754,
+      "green" : 0.754
+    },
+    "darkColor" : {
+      "red" : 0.371,
+      "alpha" : 1,
+      "blue" : 0.371,
+      "green" : 0.371
     }
   }
 }
