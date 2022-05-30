@@ -30,6 +30,7 @@ These are themes that also change the color of the foreground, background, text 
 4) **DefaultTwitter**: A theme based on the default Twitter theme.
 5) **AniList**: A theme based on the AniList theme, coming soon!
 
+Screenshots of how these themes looked can be found as well.
 
 To implement any of these themes into Paperback you'll have to share the file with the Paperback app (the same way you do with a backup) from the device you want to change the theme on. After this restart the app to make sure it's fully implemented.
 
