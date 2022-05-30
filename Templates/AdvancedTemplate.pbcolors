@@ -115,7 +115,7 @@
     }
   },
 
-// C: Overlay when refreshing the library. Change "X", "Y" and "Z" to the same values you choose for the background ("B").
+// C: Overlay when refreshing the library. I recommended changing "X", "Y" and "Z" to the same values you choose for the background ("B").
 
   "overlayColor" : {
     "lightColor" : {
@@ -132,18 +132,18 @@
     }
   },
 
-// D: Thin line between certain elements (visible in "Discover", "History" and manga view). Change "X", "Y" and "Z" to the same values you choose for the basic theme ("1").
+// D: Thin line between certain elements (visible in "Discover", "History" and manga view). I recommended changing "X", "Y" and "Z" to the same values you choose for the basic theme ("1").
 
   "separatorColor" : {
    "lightColor" : {
       "red" : X,
-      "alpha" : 0.3,
+      "alpha" : 1,
       "blue" : Y,
       "green" : Z
     },
     "darkColor" : {
       "red" : X,
-      "alpha" : 0.6,
+      "alpha" : 1,
       "blue" : Y,
       "green" : Z
     }
