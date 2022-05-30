@@ -10,9 +10,9 @@ The standard theme the app uses is the "**DefaultColors**" file.
 I personally made a couple themes that you guys can use in case you are interested (if the theme was not originally made by me then the original creator is mentioned in the theme its description).
 
 There are 2 type of themes that I made, the first are basic themes.
-This changes everything that's red in the standard theme (this does not include buttons which have destructive functions (like "Clear")):
+This changes everything that is red in the standard theme (this does not include buttons which have destructive functions (like "Clear")):
 
-1) **CelaryeBlue**: A theme based on the blue color of my personal Paperback discord role.
+1) **CelaryeBlue**: A theme based on the blue color of my personal Paperback Discord role.
 2) **PaperbackBlue**: A theme based on the blue theme on Paperback.moe.
 3) **PaperbackRed**: A theme based on the red theme on Paperback.moe.
 4) **PaperbackPurple**: A theme based on the purple theme on Paperback.moe.
@@ -22,10 +22,11 @@ This changes everything that's red in the standard theme (this does not include 
 
 The other type are advanced themes.
 These are themes that also change the color of the foreground, background, text and other elements:
+("[LD]"= theme supports both light and dark mode)
 
-1) **UPDATED: BlueDiscord**: A theme based on a blue discord theme (original creator: @zikofurito#2238, completely remade by me)!
-2) **DarkDiscord**: A theme based on the dark Discord theme.
-3) **DarkDiscordAndPink**: A theme based on the dark Discord theme but with pink elements.
+1) **DarkBlueDiscord**: A theme based on a dark blue discord theme [LD] (original creator: @zikofurito#2238, completely remade by me).
+2) **UPDATED: Discord**: A theme based on the standard Discord theme [LD]!
+3) **UPDATED: DiscordPink**: The "**Discord**" theme but with pink elements [LD]!
 4) **DefaultTwitter**: A theme based on the default Twitter theme.
 5) **AniList**: A theme based on the AniList theme, coming soon!
 
