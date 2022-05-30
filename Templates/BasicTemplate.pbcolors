@@ -113,13 +113,13 @@
   "separatorColor" : {
    "lightColor" : {
       "red" : 0.235,
-      "alpha" : 1,
+      "alpha" : 0.3,
       "blue" : 0.263,
       "green" : 0.235
     },
     "darkColor" : {
       "red" : 0.329,
-      "alpha" : 1,
+      "alpha" : 0.6,
       "blue" : 0.345,
       "green" : 0.329
     }
