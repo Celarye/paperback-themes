@@ -18,13 +18,12 @@ This changes everything that is red in the standard theme (this does not include
 4) **PaperbackPurple**: A theme based on the purple theme on Paperback.moe.
 5) **CherryBlossomPink**: A theme based on the pink color of cherry blossom trees.
 6) **Turquoise**: A theme based on the color turquoise.
-7) **Green**: A theme based on the color green.
 
 The other type are advanced themes.
 These are themes that also change the color of the foreground, background, text and other elements:
 ("[LD]"= theme supports both light and dark mode)
 
-1) **DarkBlueDiscord**: A theme based on a dark blue discord theme [LD] (original creator: @zikofurito#2238, completely remade by me).
+1) **UPDATED: DarkBlueDiscord**: A theme based on a dark blue discord theme [LD] (original creator: @zikofurito#2238, remade by me).
 2) **UPDATED: Discord**: A theme based on the standard Discord theme [LD]!
 3) **UPDATED: DiscordPink**: The "**Discord**" theme but with pink elements [LD]!
 4) **DefaultTwitter**: A theme based on the default Twitter theme.
