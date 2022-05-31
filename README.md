@@ -27,8 +27,9 @@ These are themes that also change the color of the foreground, background, text 
 2) **UPDATED: DiscordPink**: The "**Discord**" theme but with pink elements [LD]!
 3) **UPDATED: DarkDiscord**: A theme based on the standard Discord theme but a bit darker [LD] (original creator: @zikofurito#2238, remade by me)!
 4) **NEW: DarkDiscordPink**: The "**DarkDiscord**" theme but with pink elements [LD]!
-5) **DefaultTwitter**: A theme based on the default Twitter theme.
-6) **AniList**: A theme based on the AniList theme, coming soon!
+5) **DefaultTwitter**: A theme based on the default Twitter theme, will be remade tomorrow!
+6) **NeoTokyo**: A theme based on the neo tokyo color palette, coming tomorrow!
+7) **AniList**: A theme based on the AniList theme, coming tomorrow!
 
 Screenshots of how these themes looked can be found as well.
 
