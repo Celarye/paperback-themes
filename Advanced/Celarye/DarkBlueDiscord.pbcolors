@@ -1,4 +1,4 @@
-{
+ {
   "accentColor" : {
     "lightColor" : {
       "red" : 0.34509803921,
@@ -43,10 +43,10 @@
   },
   "foregroundColor" : {
     "lightColor" : {
-      "red" : 0.95,
+      "red" : 0.94901960784,
       "alpha" : 1,
-      "blue" : 0.95,
-      "green" : 0.95
+      "blue" : 0.96078431372,
+      "green" : 0.95294117647
     },
     "darkColor" : {
       "red" : 0.125,
@@ -86,43 +86,43 @@
   "separatorColor" : {
    "lightColor" : {
       "red" : 0.34509803921,
-      "alpha" : 0.3,
+      "alpha" : 1,
       "blue" : 0.94901960784,
       "green" : 0.39607843137
     },
     "darkColor" : {
       "red" : 0.34509803921,
-      "alpha" : 0.6,
+      "alpha" : 1,
       "blue" : 0.94901960784,
       "green" : 0.39607843137
     }
   },
   "bodyTextColor" : {
     "lightColor" : {
-      "red" : 0.20392156862,
+      "red" : 0,
       "alpha" : 1,
-      "blue" : 0.95294117647,
-      "green" : 0.4431372549
+      "blue" : 0,
+      "green" : 0
     },
     "darkColor" : {
-      "red" : 0.47843137254,
+      "red" : 1,
       "alpha" : 1,
-      "blue" : 0.96862745098,
-      "green" : 0.63529411764
+      "blue" : 1,
+      "green" : 1
     }
   },
   "subtitleTextColor" : {
     "lightColor" : {
-      "red" : 0.42352941176,
+      "red" : 0.59215686274,
       "alpha" : 1,
-      "blue" : 0.88235294117,
-      "green" : 0.49019607843
+      "blue" : 0.70588235294,
+      "green" : 0.66274509803
     },
     "darkColor" : {
-      "red" : 0.69411764705,
+      "red" : 0.59215686274,
       "alpha" : 1,
-      "blue" : 0.93725490196,
-      "green" : 0.7294117647
+      "blue" : 0.70588235294,
+      "green" : 0.66274509803
     }
   },
   "titleTextColor" : {
