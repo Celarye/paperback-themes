@@ -23,11 +23,12 @@ The other type are advanced themes.
 These are themes that also change the color of the foreground, background, text and other elements:
 ("[LD]"= theme supports both light and dark mode)
 
-1) **UPDATED: DarkBlueDiscord**: A theme based on a dark blue discord theme [LD] (original creator: @zikofurito#2238, remade by me).
-2) **UPDATED: Discord**: A theme based on the standard Discord theme [LD]!
-3) **UPDATED: DiscordPink**: The "**Discord**" theme but with pink elements [LD]!
-4) **DefaultTwitter**: A theme based on the default Twitter theme.
-5) **AniList**: A theme based on the AniList theme, coming soon!
+1) **UPDATED: Discord**: A theme based on the standard Discord theme [LD]!
+2) **UPDATED: DiscordPink**: The "**Discord**" theme but with pink elements [LD]!
+3) **UPDATED: DarkDiscord**: A theme based on the standard Discord theme but a bit darker [LD] (original creator: @zikofurito#2238, remade by me)!
+4) **NEW: DarkDiscordPink**: The "**DarkDiscord**" theme but with pink elements [LD]!
+5) **DefaultTwitter**: A theme based on the default Twitter theme.
+6) **AniList**: A theme based on the AniList theme, coming soon!
 
 Screenshots of how these themes looked can be found as well.
 
