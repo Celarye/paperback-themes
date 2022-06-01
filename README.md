@@ -18,23 +18,25 @@ This changes everything that is red in the standard theme (this does not include
 4) **PaperbackPurple**: A theme based on the purple theme on Paperback.moe.
 5) **CherryBlossomPink**: A theme based on the pink color of cherry blossom trees.
 6) **Turquoise**: A theme based on the color turquoise.
+7) **Gray**: A theme based on the color gray, coming soon!
 
 The other type are advanced themes.
 These are themes that also change the color of the foreground, background, text and other elements:
 ("[LD]"= theme supports both light and dark mode)
 
-1) **UPDATED: Discord**: A theme based on the standard Discord theme [LD]!
-2) **UPDATED: DiscordPink**: The "**Discord**" theme but with pink elements [LD]!
-3) **UPDATED: DarkDiscord**: A theme based on the standard Discord theme but a bit darker [LD] (original creator: @zikofurito#2238, remade by me)!
-4) **NEW: DarkDiscordPink**: The "**DarkDiscord**" theme but with pink elements [LD]!
-5) **DefaultTwitter**: A theme based on the default Twitter theme, will be remade tomorrow!
-6) **NeoTokyo**: A theme based on the neo tokyo color palette, coming tomorrow!
-7) **AniList**: A theme based on the AniList theme, coming tomorrow!
+1) **Discord**: A theme based on the standard Discord theme [LD].
+2) **DiscordPink**: The "**Discord**" theme but with pink elements [LD].
+3) **DarkDiscord**: A theme based on the standard Discord theme but a bit darker [LD] (original creator: @zikofurito#2238, remade by me).
+4) **DarkDiscordPink**: The "**DarkDiscord**" theme but with pink elements [LD].
+5) **NEW: DimTwitter**: A theme based on the dim Twitter theme [LD]!
+6) **NEW: LightsOutTwitter**: A theme based on the lights out Twitter theme [LD]!
+7) **NeoTokyo**: A theme based on the neo tokyo color palette, coming soon!
+8) **AniList**: A theme based on the AniList theme, coming soon!
 
 Screenshots of how these themes looked can be found as well.
 
 To implement any of these themes into Paperback you'll have to share the file with the Paperback app (the same way you do with a backup) from the device you want to change the theme on. After this restart the app to make sure it's fully implemented.
 
-I also made template files for both the basic theme and advanced theme so you can easily make your own theme, this are the "**BasicTemplate**" and "**AdvancedTemplate**" files and can be found in the Github repository. I recommend opening this with Notepad++ or VSC on PC or the QuickText app on IOS. A guide on how to use it can be found in the file itself. And you can always DM me (on Discord (Celarye#3602)) the themes you made so I can add them to the repository and Paperback Discord.
+I also made template files for both the basic theme and advanced theme so you can easily make your own theme, this are the "**BasicTemplate**" and "**AdvancedTemplate**" files and can be found in the Github repository. I recommend opening this with Notepad++ or VSC on PC or the QuickText app on IOS. A guide on how to use it can be found in the file itself. And you can always DM me (on Discord (Celarye#0001)) the themes you made so I can add them to the repository and Paperback Discord.
 
-You may always DM me on discord (Celarye#3602) regarding any questions about this.
+You may always DM me on discord (Celarye#0001) regarding any questions about this.
