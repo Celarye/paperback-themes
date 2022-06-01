@@ -38,6 +38,6 @@ Screenshots of how these themes looked can be found as well.
 
 To implement any of these themes into Paperback you'll have to share the file with the Paperback app (the same way you do with a backup) from the device you want to change the theme on. After this restart the app to make sure it's fully implemented.
 
-I also made template files for both the basic theme and advanced theme so you can easily make your own theme, this are the "**BasicTemplate**" and "**AdvancedTemplate**" files and can be found in the Github repository. I recommend opening this with Notepad++ or VSC on PC or the QuickText app on IOS. A guide on how to use it can be found in the file itself. And you can always DM me (on Discord (Celarye#0001)) the themes you made so I can add them to the repository and Paperback Discord.
+I also made template files for both the basic theme and advanced theme so you can easily make your own theme, this are the "**BasicTemplate**" and "**AdvancedTemplate**" files and can be found in the Github repository. I recommend opening this with Notepad++ or VSC on PC or the QuickText app on IOS. A guide on how to use it can be found in the file itself. And you can always DM me (on Discord (@Celarye#0001)) the themes you made so I can add them to the repository and Paperback Discord.
 
-You may always DM me on discord (Celarye#0001) regarding any questions about this.
+You may always DM me on discord (@Celarye#0001) regarding any questions about this.
