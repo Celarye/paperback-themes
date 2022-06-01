@@ -11,6 +11,7 @@ I personally made a couple themes that you guys can use in case you are interest
 
 There are 2 type of themes that I made, the first are basic themes.
 This changes everything that is red in the standard theme (this does not include buttons which have destructive functions (like "Clear")):
+(All these themes support both light and dark mode)
 
 1) **CelaryeBlue**: A theme based on the blue color of my personal Paperback Discord role.
 2) **PaperbackBlue**: A theme based on the blue theme on Paperback.moe.
@@ -18,18 +19,18 @@ This changes everything that is red in the standard theme (this does not include
 4) **PaperbackPurple**: A theme based on the purple theme on Paperback.moe.
 5) **CherryBlossomPink**: A theme based on the pink color of cherry blossom trees.
 6) **Turquoise**: A theme based on the color turquoise.
-7) **Gray**: A theme based on the color gray, coming soon!
+7) **NEW: Gray**: A theme based on the color gray!
 
 The other type are advanced themes.
 These are themes that also change the color of the foreground, background, text and other elements:
-("[LD]"= theme supports both light and dark mode)
+(All these themes support both light and dark mode)
 
-1) **Discord**: A theme based on the standard Discord theme [LD].
-2) **DiscordPink**: The "**Discord**" theme but with pink elements [LD].
-3) **DarkDiscord**: A theme based on the standard Discord theme but a bit darker [LD] (original creator: @zikofurito#2238, remade by me).
-4) **DarkDiscordPink**: The "**DarkDiscord**" theme but with pink elements [LD].
-5) **NEW: DimTwitter**: A theme based on the dim Twitter theme [LD]!
-6) **NEW: LightsOutTwitter**: A theme based on the lights out Twitter theme [LD]!
+1) **Discord**: A theme based on the standard Discord theme.
+2) **DiscordPink**: The "**Discord**" theme but with pink elements.
+3) **DarkDiscord**: A theme based on the standard Discord theme but a bit darker (original creator: @zikofurito#2238, remade by me).
+4) **DarkDiscordPink**: The "**DarkDiscord**" theme but with pink elements.
+5) **NEW: DimTwitter**: A theme based on the dim Twitter theme!
+6) **NEW: LightsOutTwitter**: A theme based on the lights out Twitter theme!
 7) **NeoTokyo**: A theme based on the neo tokyo color palette, coming soon!
 8) **AniList**: A theme based on the AniList theme, coming soon!
 
