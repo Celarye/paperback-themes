@@ -39,4 +39,15 @@ To implement any of these themes into Paperback you'll have to share the file wi
 
 I also made template files for both the basic theme and advanced theme so you can easily make your own theme, these are the "**BasicTemplate**" and "**AdvancedTemplate**" files and can be found in the [Github repository](https://github.com/Celarye/Paperback-themes). I recommend opening this with [Virtual Studio Code](https://code.visualstudio.com/) on PC or [Runestone](https://apps.apple.com/gb/app/runestone-text-editor/id1548193893) on IOS. A guide on how to use it can be found in the file itself. And you can always DM me (Celarye # 0001 on Discord) the themes you made so I can add them to the repository and Paperback Discord.
 
+**A notice for theme creation in the future:**
+Any themes you want to be added to the repo under your name will have to be made with the AdvancedTemplate.pbcolors file and still include every line starting with "//".
+If this isn't the case I'll have to rework them and not credit you bcs that takes quite some time to do.
+Of course you won't have to follow the template for 100% but if you don't you will need to justify it (both light and dark mode support is strongly recommended however).
+
+And (hopefully) soon the themes tool will be completed and then you'll be able to use that.
+
+All this is just to increase efficiency (I will be able to speed trough it and see that all values are fine and instantly upload it under your name and you will probably take less time to make the theme as well).
+
+Also make sure not to make any themes I got planned already (check README for that) or we'll have doubles, you can however always DM me and ask if it's fine to make one of them.
+
 You may always DM me on discord (Celarye # 0001) regarding any questions regarding this.
