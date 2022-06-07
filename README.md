@@ -41,13 +41,13 @@ I also made template files for both the basic theme and advanced theme so you ca
 
 **A notice for theme creation in the future:**
 Any themes you want to be added to the repo under your name will have to be made with the AdvancedTemplate.pbcolors file and still include every line starting with "//".
-If this isn't the case I'll have to rework them and not credit you bcs that takes quite some time to do.
-Of course you won't have to follow the template for 100% but if you don't you will need to justify it (both light and dark mode support is strongly recommended however).
+If this isn't the case I will have to rework them and not credit you bcs that takes quite some time to do.
+Of course you will not have to follow the template for 100% but if you don't you will need to justify it (both light and dark mode support is strongly recommended however).
 
-And (hopefully) soon the themes tool will be completed and then you'll be able to use that.
+And (hopefully) soon the themes tool will be completed and then we will be able to use that.
 
-All this is just to increase efficiency (I will be able to speed trough it and see that all values are fine and instantly upload it under your name and you will probably take less time to make the theme as well).
+All this is just to increase efficiency (I will be able to speed trough it and see that all values are fine and instantly upload it under your name and you will probably take less time to make those themes as well).
 
-Also make sure not to make any themes I got planned already (check README for that) or we'll have doubles, you can however always DM me and ask if it's fine to make one of them.
+Also make sure not to make any themes I or someone else got planned already (check the README for that and let me know which you are planning to make so I can add it), you can however always DM me and ask if it is fine to take one of those.
 
 You may always DM me on discord (Celarye # 0001) regarding any questions regarding this.
