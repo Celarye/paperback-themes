@@ -24,9 +24,9 @@
 // It is recommended to make the theme both light and dark mode compatible.
 
 // Leave everything else intact in this file.
-// After completing all the above steps you will need to remove every line starting with "//".
-// Then you can save this file and share it with the Paperback app (the same way you do with a backup) from the device you want to change the theme on. After this restart the app to make sure it's fully implemented.
-// And feel free to message Celarye#3602 on Discord with the theme you made so he can add it to the public repository!
+// After completing all the above steps you will need to remove every line starting with "//" (This is needed for the theme to work. However, if you want your theme to be added to the public repository and Paperback Discord you will need to leave all these lines intact).
+// Then you can save this file and share it with the Paperback app (the same way you do with a backup) from the device you want to change the theme on. After this restart the app to make sure it is fully implemented.
+// And feel free to message Celarye#0001 on Discord with the theme you made so he can add it to the public repository and Paperback Discord!
 
 {
 
@@ -61,23 +61,6 @@
       "alpha" : 1,
       "blue" : Yt,
       "green" : Zt
-    }
-  },
-
-// 3: Version r42 and onwards does not use this anymore, however it is recommended to still include this so people who are on older versions of the app can also use the theme.
-
-  "accentColorLight" : {
-    "lightColor" : {
-      "red" : Xa,
-      "alpha" : 0.5,
-      "blue" : Ya,
-      "green" : Za
-    },
-    "darkColor" : {
-      "red" : Xa,
-      "alpha" : 0.5,
-      "blue" : Ya,
-      "green" : Za
     }
   },
 
@@ -180,135 +163,6 @@
       "alpha" : 1,
       "blue" : Y,
       "green" : Z
-    }
-  },
-
-// Version r42 and onwards does not use the next fields anymore, however it is recommended to still include these so people who are on older versions of the app can also use the theme.
-
-  "titleTextColor" : {
-   "lightColor" : {
-      "red" : 0.130,
-      "alpha" : 1,
-      "blue" : 0.130,
-      "green" : 0.130
-    },
-    "darkColor" : {
-      "red" : 0.921,
-      "alpha" : 1,
-      "blue" : 0.921,
-      "green" : 0.921
-    }
-  },
-  "supertitleTextColor" : {
-    "lightColor" : {
-      "red" : 0.371,
-      "alpha" : 1,
-      "blue" : 0.371,
-      "green" : 0.371
-    },
-    "darkColor" : {
-      "red" : 0.754,
-      "alpha" : 1,
-      "blue" : 0.754,
-      "green" : 0.754
-    }
-  },
-  "buttonNormalTextColor" : {
-    "lightColor" : {
-      "red" : 0.130,
-      "alpha" : 1,
-      "blue" : 0.130,
-      "green" : 0.130
-    },
-    "darkColor" : {
-      "red" : 0.921,
-      "alpha" : 1,
-      "blue" : 0.921,
-      "green" : 0.921
-    }
-  },
-  "buttonSelectedTextColor" : {
-    "lightColor" : {
-      "red" : 1,
-      "alpha" : 1,
-      "blue" : 1,
-      "green" : 1
-    },
-    "darkColor" : {
-      "red" : 1,
-      "alpha" : 1,
-      "blue" : 1,
-      "green" : 1
-    }
-  },
-  "buttonNormalBackgroundColor" : {
-    "lightColor" : {
-      "red" : 1,
-      "alpha" : 1,
-      "blue" : 1,
-      "green" : 1
-    },
-    "darkColor" : {
-      "red" : 0,
-      "alpha" : 1,
-      "blue" : 0,
-      "green" : 0
-    }
-  },
-  "buttonNormalBorderColor" : {
-    "lightColor" : {
-      "red" : 0.991,
-      "alpha" : 1,
-      "blue" : 0.407,
-      "green" : 0.415
-    },
-    "darkColor" : {
-      "red" : 0.991,
-      "alpha" : 1,
-      "blue" : 0.407,
-      "green" : 0.415
-    }
-  },
-  "buttonSelectedBackgroundColor" : {
-    "lightColor" : {
-      "red" : 0.991,
-      "alpha" : 0.5,
-      "blue" : 0.407,
-      "green" : 0.415
-    },
-    "darkColor" : {
-      "red" : 0.9919,
-      "alpha" : 0.5,
-      "blue" : 0.407,
-      "green" : 0.415
-    }
-  },
-  "buttonSelectedBorderColor" : {
-    "lightColor" : {
-      "red" : 0.991,
-      "alpha" : 1,
-      "blue" : 0.407,
-      "green" : 0.415
-    },
-    "darkColor" : {
-      "red" : 0.991,
-      "alpha" : 1,
-      "blue" : 0.407,
-      "green" : 0.415
-    }
-  },
-  "borderColor" : {
-    "lightColor" : {
-      "red" : 0.754,
-      "alpha" : 1,
-      "blue" : 0.754,
-      "green" : 0.754
-    },
-    "darkColor" : {
-      "red" : 0.371,
-      "alpha" : 1,
-      "blue" : 0.371,
-      "green" : 0.371
     }
   }
 }
