@@ -38,4 +38,4 @@ I also made a template file so you can easily make your own theme, this is the "
 
 *Also make sure to not make any themes I or someone else got planned already (check the README for that and let me know which ones you are planning on making so I can add it to the README as well).*
 
-You may always DM me on discord (@Celarye# 0001) for any questions regarding themes.
+You may always DM me on discord (@Celarye# 0001) for any questions regarding Paperback themes.
