@@ -23,8 +23,7 @@ Since the 0.7 release you have the option to use custom themes in the [Paperback
 
 ---
 
-## FAQ
-
+## __FAQ__
 ### Frequently asked questions regarding themes in the app.
 
 **1. How do I install/implement a theme?**
@@ -41,12 +40,11 @@ The standard theme the app uses is the "**DefaultTheme**" file, share this file 
 
 **4. Can I make my own theme?**
 
-You may always make a request for a theme in the Github repository by making a feature request or on Discord by DMing me. However, if you rather make a theme yourself I recommend checking out "**Theme creation**" bellow this FAQ. 
+You may always make a request for a theme in the Github repository by making a feature request or on Discord by DMing me (@Celarye# 0001). However, if you rather make a theme yourself I recommend checking out "__Theme creation__" bellow this FAQ. 
 
 ---
 
 ## Theme creation
-
 ### Info regarding theme creation for the app.
 
 I made a template file so you can easily make your own theme, this is the "**Template**" file and can be found in the Github repository. I recommend opening this with [Virtual Studio Code](https://code.visualstudio.com/) on PC or [Runestone](https://apps.apple.com/gb/app/runestone-text-editor/id1548193893) on IOS. A guide on how to use it can be found in the file itself. And feel free to DM me (@Celarye# 0001 on Discord) the themes you made so I can add them to the public repository and Paperback Discord.
