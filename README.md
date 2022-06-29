@@ -8,6 +8,7 @@ Since the 0.7 release you have the option to use custom themes in the Paperback 
 The standard theme the app uses is the "**DefaultColors**" file (use this file to reset your app to the standard theme).
 
 **List with all the public themes:**
+
 (All these themes support both light and dark mode)
 ("**[...]**": All variations of that theme)
 
@@ -24,9 +25,11 @@ Screenshots of how the advanced themes look can be found in the [Github reposito
 To implement any of these themes into Paperback you will have to share the file with the Paperback app (the same way you do with a backup) from the device you want to change the theme on. After this restart the app to make sure it is fully implemented.
 
 **Theme creation:**
+
 I also made a template file so you can easily make your own theme, this is the "**Template**" file and can be found in the [Github repository](https://github.com/Celarye/Paperback-themes). I recommend opening this with [Virtual Studio Code](https://code.visualstudio.com/) on PC or [Runestone](https://apps.apple.com/gb/app/runestone-text-editor/id1548193893) on IOS. A guide on how to use it can be found in the file itself. And you can always DM me (@Celarye# 0001 on Discord) the themes you made so I can add them to the public repository and Paperback Discord.
 
 ***DISCLAIMER:***
+
 *All themes you make and want to be added to the public repository and Paperback Discord under your name will have to be made with the "**Template**" file (without any line starting with "//" removed).*
 *You will not have to follow the guide in the template for 100% but if you don't you will need to justify it (however, both light and dark mode support is mandatory).*
 *If this isn't the case I will have to rework them and not credit you because this process takes quite some time to do.*
