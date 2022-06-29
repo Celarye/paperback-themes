@@ -16,9 +16,11 @@ The standard theme the app uses is the "**DefaultColors**" file (use this file t
 2) **DarkDiscord**: Themes based on the standard [Discord](https://discord.com/) theme but with dark mode being a bit darker **[Blue, Pink, Purple]** (original creator: @zikofurito#2238, remade by @Celarye# 0001).
 3) **Twitter**: Themes based on the [Twitter](https://twitter.com/) themes **[Dim, Lights Out]** (made by @Celarye# 0001).
 4) **Spotify**: A theme based on the [Spotify](https://www.spotify.com/) theme (original creator: @brandon#7237, remade by @Celarye# 0001).
-5) **Apple Music**: A theme based on the [Apple Music](https://music.apple.com/) theme, coming soon!
-6) **AniList**: Themes based on the [AniList](https://anilist.co/) themes, coming soon!
-7) **NeoTokyo**: A theme based on the neo Tokyo color palette, coming soon!
+5) **Youtube**: A theme based on the [Youtube](https://www.youtube.com/) theme, coming soon!
+- Reddit: A theme based on the [Reddit](https://www.reddit.com/) theme, coming soon!
+7) **Apple Music**: A theme based on the [Apple Music](https://music.apple.com/) theme, coming soon!
+8) **AniList**: Themes based on the [AniList](https://anilist.co/) themes, coming soon!
+9) **NeoTokyo**: A theme based on the neo Tokyo color palette, coming soon!
 
 Screenshots of how the advanced themes look can be found in the [Github repository](https://github.com/Celarye/Paperback-themes).
 
