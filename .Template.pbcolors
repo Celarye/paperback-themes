@@ -3,15 +3,15 @@
 // This file is divided in 2 parts: "Basic theme" and "Advanced theme".
 
 // Basic theme:
-// The basic theme exists from "1" to "3".
-// "1" and "3" is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
+// The basic theme exists from "1" to "2".
+// "1" is everything red in the standard theme (this does not include buttons which have destructive functions (like "Clear")).
 // "2" is the text inside of the red boxes/buttons in the standard theme.
-// First get the rgb values of the color you want to make "1" and "3" and divide all 3 values (red, blue and green) by 255.
+// First get the rgb values of the color you want to make "1" and divide all 3 values (red, blue and green) by 255.
 // Then, change "Xa" to the value you got for dividing the "red" value by 255.
 // Change "Ya" to the value you got for dividing the "blue" value by 255.
 // Change "Za" to the value you got for dividing the "green" value by 255.
 // Leave the "alpha" value as is.
-// Change "2" the same way as you did for "1" and "3" but with a color that causes the text inside the boxes/buttons of the basic theme to be readable.
+// Change "2" the same way as you did for "1" but with a color that causes the text inside the boxes/buttons of the basic theme to be readable.
 
 // Advanced theme:
 // The advanced theme exists from "A" to "F".
@@ -21,12 +21,12 @@
 // Change "Y" to the value you got for dividing the "blue" value by 255.
 // Change "Z" to the value you got for dividing the "green" value by 255.
 // Leave the "alpha" value as is.
-// It is recommended to make the theme both light and dark mode compatible.
+// It is recommended to make the theme both light and dark mode compatible (mandatory if you want your theme to be added to the public theme repository and Paperback Discord).
 
 // Leave everything else intact in this file.
-// After completing all the above steps you will need to remove every line starting with "//" (This is needed for the theme to work. However, if you want your theme to be added to the public repository and Paperback Discord you will need to leave all these lines intact).
+// After completing all the above steps you will need to remove every line starting with "//" (This is needed for the theme to work. However, if you want your theme to be added to the public theme repository and Paperback Discord you will need to leave all these lines intact).
 // Then you can save this file and share it with the Paperback app (the same way you do with a backup) from the device you want to change the theme on. After this restart the app to make sure it is fully implemented.
-// And feel free to message Celarye#0001 on Discord with the theme you made so he can add it to the public repository and Paperback Discord!
+// And feel free to DM Celarye on Discord the themes you made so he can add them to the public theme repository and Paperback Discord.
 
 {
 
@@ -98,7 +98,7 @@
     }
   },
 
-// C: Overlay when refreshing the library. I recommended changing "X", "Y" and "Z" to the same values you choose for the background ("B").
+// C: The overlay when refreshing the library. Recommended to change "X", "Y" and "Z" to the same values you choose for the background ("B").
 
   "overlayColor" : {
     "lightColor" : {
@@ -115,7 +115,7 @@
     }
   },
 
-// D: Thin line between certain elements (visible in "Discover", "History" and manga view). I recommended changing "X", "Y" and "Z" to the same values you choose for the basic theme ("1").
+// D: Thin line between certain elements (visible in "Discover", "History" and manga view). Recommended to change "X", "Y" and "Z" to the same values you choose for the basic theme ("1").
 
   "separatorColor" : {
    "lightColor" : {
