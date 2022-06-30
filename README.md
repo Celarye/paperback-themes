@@ -66,7 +66,7 @@ You may always DM Celarye on Discord for any questions regarding Paperback theme
 
 ---
 
-## References:
+### References:
 
 (Celarye: @Celarye # 0001)
 (Ziko: @zikofurito # 2238)
