@@ -1,0 +1,114 @@
+{
+  "accentColor" : {
+    "lightColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    },
+    "darkColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    }
+  },
+  "accentTextColor" : {
+    "lightColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    },
+    "darkColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    }
+  },
+  "foregroundColor" : {
+    "lightColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    },
+    "darkColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    }
+  },
+  "backgroundColor" : {
+    "lightColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    },
+    "darkColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    }
+  },
+  "overlayColor" : {
+    "lightColor" : {
+      "red" : 1,
+      "alpha" : 0.7,
+      "blue" : 1,
+      "green" : 1
+    },
+    "darkColor" : {
+      "red" : 0,
+      "alpha" : 0.7,
+      "blue" : 0,
+      "green" : 0
+    }
+  },
+  "separatorColor" : {
+    "lightColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    },
+    "darkColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    }
+  },
+  "bodyTextColor" : {
+    "lightColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    },
+    "darkColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    }
+  },
+  "subtitleTextColor" : {
+    "lightColor" : {
+      "red" : 0,
+      "alpha" : 1,
+      "blue" : 0,
+      "green" : 0
+    },
+    "darkColor" : {
+      "red" : 1,
+      "alpha" : 1,
+      "blue" : 1,
+      "green" : 1
+    }
+  }
+}
