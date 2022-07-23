@@ -12,12 +12,7 @@ Since the 0.7 release you have the option to use custom themes in the [Paperback
 2) **DarkDiscord**: Themes based on the standard [Discord](https://discord.com/) theme but with dark mode being a bit darker **[Blue, Pink, Purple]** (original creator: Ziko, remade by Celarye).
 3) **Twitter**: Themes based on the [Twitter](https://twitter.com/) themes **[Dim, Lights Out]** (made by Celarye).
 4) **Spotify**: A theme based on the [Spotify](https://www.spotify.com/) theme (original creator: Brandon, remade by Celarye).
-5) **MonsterEnergy**: Themes based on the [Monster Energy](https://www.monsterenergy.com/) themes, coming soon!
-6) **Youtube**: A theme based on the [Youtube](https://www.youtube.com/) theme, coming soon!
-7) **Reddit**: A theme based on the [Reddit](https://www.reddit.com/) theme, coming soon!
-8) **Apple Music**: A theme based on the [Apple Music](https://music.apple.com/) theme, coming soon!
-9) **AniList**: Themes based on the [AniList](https://anilist.co/) themes, coming soon!
-10) **NeoTokyo**: A theme based on the neo Tokyo color palette, coming soon!
+5) **BlackAndWhite**: A theme completely in black and white (made by Spot).
 
 *Screenshots of how the themes look can be found in the [Github repository](https://github.com/Celarye/Paperback-themes).*
 
@@ -58,7 +53,7 @@ There is a template and guide so you can easily make your own theme, this is the
 
 *These rules are to increase efficiency and quality of the themes.*
 
-*Also make sure to not make any themes someone else got planned already (check the README for that and let Celarye know which ones you are planning on making trough a Discord DM so he can add it to the README as well).*
+*Also make sure to not make any themes someone else got planned already (check with Celarye trough a Discord DM for that and let him know which ones you are planning on making so he can prevent duplicates from being made).*
 
 ---
 
@@ -66,8 +61,9 @@ You may always DM Celarye on Discord for any questions regarding Paperback theme
 
 ---
 
-### References:
+### References (Discord):
 
 (Celarye: @Celarye # 0001)
 (Ziko: @zikofurito # 2238)
 (Brandon: @brandon # 7237)
+(Spot: @spot # 1337)
