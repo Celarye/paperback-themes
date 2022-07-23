@@ -1,17 +1,17 @@
 ---
 name: Theme request
-about: Suggest a theme that could be added
+about: Suggest a theme that could be added.
 title: "[REQUEST]"
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: Celarye
 
 ---
 
-**The theme you would like to be added**
+**The theme you would like to be added:**
 A name and a description of the theme.
 
-**A possible example**
+**A possible example:**
 The source of the theme (image, website, ...).
 
-**Additional context**
+**Additional context:**
 Add any other context or screenshots about the theme request here.
