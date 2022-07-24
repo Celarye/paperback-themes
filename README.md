@@ -44,7 +44,7 @@ You can also have your iPhone/iPad automatically change between dark or light mo
 6) Now turn off "Ask Before Running" and click "Don't Ask" on the pop-up, after that click "Done" on the top right corner.
 7) Now repeat step 2) to 6) but choose "Is Closed" in step 4) and choose the opposite appearance mode in step 5).
 
-**4. Why won't my theme install?**
+**4. Why won't a theme install?**
 
 There are 2 reasons that may cause this. The first one is that your app version is older than version 0.7 r42, in this case make a backup and update your app. The second one is the possibility that the theme file is broken, if this is the case you may either open an issue on the Paperback themes Github or DM Celarye on Discord regarding this issue (make sure to check the first possibility and to restart your phone and trying again before doing either of those). 
 
