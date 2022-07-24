@@ -63,16 +63,16 @@ You may always make a request for a theme in the [Github repository](https://git
 
 There is a template and guide so you can easily make your own theme, this is the "**Template**" file and can be found in the [Github repository](https://github.com/Celarye/Paperback-themes). It is recommended to open this with [Virtual Studio Code](https://code.visualstudio.com/) on PC or [Runestone](https://apps.apple.com/gb/app/runestone-text-editor/id1548193893) on IOS. The guide on how to use it can be found in the file itself. And feel free to DM Celarye on Discord the themes you made so he can add them to the public theme repository and Paperback Discord.
 
-***DISCLAIMER:***
-
-*All themes you make and want to be added to the public theme repository and Paperback Discord under your name will have to be made with the "**Template**" file (without any line starting with "//" removed).*
-*You will not have to follow the guide in the template for 100% but if you don't you will need to justify it (however, both light and dark mode support is mandatory).*
-
-*If this isn't the case Celarye will have to rework them and not credit you because this process takes quite some time to do.*
-
-*These rules are to increase efficiency and quality of the themes.*
-
-*Also make sure to not make any themes someone else got planned already (check with Celarye trough a Discord DM for that and let him know which ones you are planning on making so he can prevent duplicates from being made).*
+> ***DISCLAIMER:***
+>
+> *All themes you make and want to be added to the public theme repository and Paperback Discord under your name will have to be made with the "**Template**" file (without any line starting with "//" removed).*
+> *You will not have to follow the guide in the template for 100% but if you don't you will need to justify it (however, both light and dark mode support is mandatory).*
+> 
+> *If this isn't the case Celarye will have to rework them and not credit you because this process takes quite some time to do.*
+> 
+> *These rules are to increase efficiency and quality of the themes.*
+>
+> *Also make sure to not make any themes someone else got planned already (check with Celarye trough a Discord DM for that and let him know which ones you are planning on making so he can prevent duplicates from being made).*>
 
 ---
 
