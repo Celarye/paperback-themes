@@ -3,10 +3,12 @@
 
 Since the 0.7 release you have the option to use custom themes in the [Paperback app](https://paperback.moe/). These themes change the color of the foreground, background, text and other elements in the app.
 
-**List with all the public themes:**
+---
 
-(All these themes support both light and dark mode)
-("**[...]**": All variations of that theme)
+## List of all the public themes
+
+*(All these themes support both light and dark mode)*
+*("**[...]**": All variations of that theme)*
 
 1) **Discord**: Themes based on the standard [Discord](https://discord.com/) theme **[Blue, Pink, Purple]** (made by Celarye).
 2) **DarkDiscord**: Themes based on the standard [Discord](https://discord.com/) theme but with dark mode being a bit darker **[Blue, Pink, Purple]** (original creator: Ziko, remade by Celarye).
@@ -52,7 +54,7 @@ The standard theme the app uses is the "**DefaultTheme**" file, share this file 
 
 **6. Can I make my own theme?**
 
-You may always make a request for a theme in the [Github repository](https://github.com/Celarye/Paperback-themes) by making a feature request or on Discord by DMing Celarye. However, if you rather make a theme yourself it is recommended to check out "Theme creation" bellow this FAQ. 
+You may always make a request for a theme in the [Github repository](https://github.com/Celarye/Paperback-themes) by making a feature request or on Discord by DMing Celarye. However, if you rather make a theme yourself it is recommended to check out "Theme creation" bellow this FAQ.
 
 ---
 
@@ -74,11 +76,11 @@ There is a template and guide so you can easily make your own theme, this is the
 
 ---
 
-You may always DM Celarye on Discord for any questions regarding Paperback themes.
+**You may always DM Celarye on Discord for any questions regarding Paperback themes.**
 
 ---
 
-### References (Discord):
+**References (Discord):**
 
 (Celarye: @Celarye # 0001)
 (Ziko: @zikofurito # 2238)
