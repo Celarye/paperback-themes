@@ -11,7 +11,7 @@ Since the 0.7 release you have the option to use custom themes in the [Paperback
 *("**[...]**": All variations of that theme)*
 
 1) **Discord**: Themes based on the standard [Discord](https://discord.com/) theme **[Blue, Pink, Purple]** (made by Celarye).
-2) **DarkDiscord**: Themes based on the standard [Discord](https://discord.com/) theme but with dark mode being a bit darker **[Blue, Pink, Purple]** (original creator: Ziko, remade by Celarye).
+2) **DarkDiscord**: Themes based on the standard Discord theme but with dark mode being a bit darker **[Blue, Pink, Purple]** (original creator: Ziko, remade by Celarye).
 3) **Twitter**: Themes based on the [Twitter](https://twitter.com/) themes **[Dim, Lights Out]** (made by Celarye).
 4) **Spotify**: A theme based on the [Spotify](https://www.spotify.com/) theme (original creator: Brandon, remade by Celarye).
 5) **BlackAndWhite**: A theme completely in black and white (made by Spot).
@@ -54,14 +54,14 @@ The standard theme the app uses is the "**DefaultTheme**" file, share this file 
 
 **6. Can I make my own theme?**
 
-You may always make a request for a theme in the [Github repository](https://github.com/Celarye/Paperback-themes) by making a feature request or on Discord by DMing Celarye. However, if you rather make a theme yourself it is recommended to check out "Theme creation" bellow this FAQ.
+You may always make a request for a theme in the Github repository by making a feature request or on Discord by DMing Celarye. However, if you rather make a theme yourself it is recommended to check out "Theme creation" bellow this FAQ.
 
 ---
 
 ## Theme creation
 ### Info regarding theme creation for the app.
 
-There is a template and guide so you can easily make your own theme, this is the "**Template**" file and can be found in the [Github repository](https://github.com/Celarye/Paperback-themes). It is recommended to open this with [Virtual Studio Code](https://code.visualstudio.com/) on PC or [Runestone](https://apps.apple.com/gb/app/runestone-text-editor/id1548193893) on IOS. The guide on how to use it can be found in the file itself. And feel free to DM Celarye on Discord the themes you made so he can add them to the public theme repository and Paperback Discord.
+There is a template and guide so you can easily make your own theme, this is the "**Template**" file and can be found in the Github repository. It is recommended to open this with [Virtual Studio Code](https://code.visualstudio.com/) on PC or [Runestone](https://apps.apple.com/gb/app/runestone-text-editor/id1548193893) on IOS. The guide on how to use it can be found in the file itself. And feel free to DM Celarye on Discord the themes you made so he can add them to the public theme repository and Paperback Discord.
 
 > ***DISCLAIMER:***
 >
