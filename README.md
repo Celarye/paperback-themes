@@ -72,7 +72,7 @@ There is a template and guide so you can easily make your own theme, this is the
 > 
 > *These rules are to increase efficiency and quality of the themes.*
 >
-> *Also make sure to not make any themes someone else got planned already (check with Celarye trough a Discord DM for that and let him know which ones you are planning on making so he can prevent duplicates from being made).*>
+> *Also make sure to not make any themes someone else got planned already (check with Celarye trough a Discord DM for that and let him know which ones you are planning on making so he can prevent duplicates from being made).*
 
 ---
 
