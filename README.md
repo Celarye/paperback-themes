@@ -10,12 +10,12 @@ Since the 0.7 release you have the option to use custom themes in the [Paperback
 *(All these themes support both light and dark mode)*
 *("**[...]**": All variations of that theme)*
 
-1) **Discord**: Themes based on the standard [Discord](https://discord.com/) theme **[Blue, Pink, Purple]** (made by Celarye).
-2) **DarkDiscord**: Themes based on the standard Discord theme but with dark mode being a bit darker **[Blue, Pink, Purple]** (original creator: Ziko, remade by Celarye).
-3) **Twitter**: Themes based on the [Twitter](https://twitter.com/) themes **[Dim, Lights Out]** (made by Celarye).
-4) **Spotify**: A theme based on the [Spotify](https://www.spotify.com/) theme (original creator: Brandon, remade by Celarye).
-5) **BlackAndWhite**: A theme completely in black and white (made by Spot).
-6) **MonsterEnergy**: Themes based on the [Monster Energy](https://www.monsterenergy.com/) theme **[Green, Mule]**!
+1) **Discord**: Themes based on the standard [Discord](https://discord.com/) theme **[Standard, Dark]** (made by Celarye).
+2) **Twitter**: Themes based on the [Twitter](https://twitter.com/) themes **[Dim, Lights Out]** (made by Celarye).
+3) **Spotify**: A theme based on the [Spotify](https://www.spotify.com/) theme (original creator: Brandon, remade by Celarye).
+4) **MonsterEnergy**: Themes based on the [Monster Energy](https://www.monsterenergy.com/) theme (made by Celarye).
+5) **AniList**: Themes based on the [AniList](https://anilist.co/) themes **[Standard, High Contrast]** (made by Spot and Celarye).
+6) **BlackAndWhite**: A theme completely in black and white (made by Spot).
 
 *Screenshots of how the themes look can be found in the [Github repository](https://github.com/Celarye/Paperback-themes).*
 
@@ -84,6 +84,5 @@ There is a template and guide so you can easily make your own theme, this is the
 **References (Discord):**
 
 (Celarye: @Celarye # 0001)
-(Ziko: @zikofurito # 2238)
 (Brandon: @brandon # 7237)
 (Spot: @spot # 1337)
