@@ -15,6 +15,7 @@ Since the 0.7 release you have the option to use custom themes in the [Paperback
 3) **Twitter**: Themes based on the [Twitter](https://twitter.com/) themes **[Dim, Lights Out]** (made by Celarye).
 4) **Spotify**: A theme based on the [Spotify](https://www.spotify.com/) theme (original creator: Brandon, remade by Celarye).
 5) **BlackAndWhite**: A theme completely in black and white (made by Spot).
+6) **MonsterEnergy**: Themes based on the [Monster Energy](https://www.monsterenergy.com/) theme **[Green, Mule]**!
 
 *Screenshots of how the themes look can be found in the [Github repository](https://github.com/Celarye/Paperback-themes).*
 
