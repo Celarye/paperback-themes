@@ -16,6 +16,7 @@ Since the 0.7 release you have the option to use custom themes in the [Paperback
 4) **MonsterEnergy**: Themes based on the [Monster Energy](https://www.monsterenergy.com/) theme (made by Celarye).
 5) **AniList**: Themes based on the [AniList](https://anilist.co/) themes **[Standard, High Contrast]** (made by Spot and Celarye).
 6) **BlackAndWhite**: A theme completely in black and white (made by Spot).
+7) **Basic themes**: Some basic themes which are currently being reworked into Advanced themes (made by Celarye).
 
 *Screenshots of how the themes look can be found in the [Github repository](https://github.com/Celarye/Paperback-themes).*
 
