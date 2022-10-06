@@ -16,7 +16,7 @@ Since the 0.7 release you have the option to use custom themes in the [Paperback
 4) **MonsterEnergy**: Themes based on the [Monster Energy](https://www.monsterenergy.com/) theme (made by Celarye).
 5) **AniList**: Themes based on the [AniList](https://anilist.co/) themes **[Standard, High Contrast]** (made by Spot and Celarye).
 6) **BlackAndWhite**: A theme completely in black and white (made by Spot).
-7) **Basic themes**: Some basic themes which are currently being reworked into Advanced themes (made by Celarye).
+7) **Basic themes**: Some basic themes which are currently being reworked into Advanced themes (made by Celarye) **[CelaryeBlue, CherryBlossomPink, Gray, turquoise, Paperback]**.
 
 *Screenshots of how the themes look can be found in the [Github repository](https://github.com/Celarye/Paperback-themes).*
 
@@ -63,14 +63,12 @@ You may always make a request for a theme in the Github repository by making a f
 ## Theme creation
 ### Info regarding theme creation for the app.
 
-There is a template and guide so you can easily make your own theme, this is the "**Template**" file and can be found in the Github repository. It is recommended to open this with [Virtual Studio Code](https://code.visualstudio.com/) on PC or [Runestone](https://apps.apple.com/gb/app/runestone-text-editor/id1548193893) on IOS. The guide on how to use it can be found in the file itself. And feel free to DM Celarye on Discord the themes you made so he can add them to the public theme repository and Paperback Discord.
+There is a [Python](https://www.python.org/) program on the Github which you can use to make your own theme, you will need to [install Python 3](https://www.python.org/downloads/) to run it however. And feel free to DM Celarye on Discord the themes you made so he can add them to the public theme repository and Paperback Discord.
 
 > ***DISCLAIMER:***
 >
-> *All themes you make and want to be added to the public theme repository and Paperback Discord under your name will have to be made with the "**Template**" file (without any line starting with "//" removed).*
+> *All themes you make and want to be added to the public theme repository and Paperback Discord under your name will have to be made with the Python program from the Github and you will also have to send a list of all the hexes you used (gets made by the program as well)*
 > *You will not have to follow the guide in the template for 100% but if you don't you will need to justify it (however, both light and dark mode support is mandatory).*
-> 
-> *If this isn't the case Celarye will have to rework them and not credit you because this process takes quite some time to do.*
 > 
 > *These rules are to increase efficiency and quality of the themes.*
 >
