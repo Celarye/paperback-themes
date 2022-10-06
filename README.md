@@ -67,8 +67,8 @@ There is a [Python](https://www.python.org/) program on the Github which you can
 
 > ***DISCLAIMER:***
 >
-> *All themes you make and want to be added to the public theme repository and Paperback Discord under your name will have to be made with the Python program from the Github and you will also have to send a list of all the hexes you used (gets made by the program as well)*
-> *You will not have to follow the guide in the template for 100% but if you don't you will need to justify it (however, both light and dark mode support is mandatory).*
+> *All themes you make and want to be added to the public theme repository and Paperback Discord under your name will have to be made with the Python program from the Github and you will also have to send a list of all the hexes you used (gets made by the program as well).*
+> *You will not have to follow the guide in the program for 100% but if you don't you will need to justify it (however, both light and dark mode support is mandatory).*
 > 
 > *These rules are to increase efficiency and quality of the themes.*
 >
