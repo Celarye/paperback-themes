@@ -1,0 +1,10 @@
+{
+    "accentColor":{ "lightColor":{ "red": 0.1803921568627451, "green": 0.19215686274509805, "blue": 0.32941176470588235, "alpha": 1 }, "darkColor":{ "red": 1.0, "green": 1.0, "blue": 1.0, "alpha": 1 } },
+    "accentTextColor":{ "lightColor":{ "red": 1.0, "green": 1.0, "blue": 1.0, "alpha": 1 }, "darkColor":{ "red": 0.1803921568627451, "green": 0.19215686274509805, "blue": 0.32941176470588235, "alpha": 1 } },
+    "foregroundColor":{ "lightColor":{ "red": 0.9411764705882353, "green": 0.9411764705882353, "blue": 0.9411764705882353, "alpha": 1 }, "darkColor":{ "red": 0.1450980392156863, "green": 0.15294117647058825, "blue": 0.2627450980392157, "alpha": 1 } },
+    "backgroundColor":{ "lightColor":{ "red": 1.0, "green": 1.0, "blue": 1.0, "alpha": 1 }, "darkColor":{ "red": 0.1803921568627451, "green": 0.19215686274509805, "blue": 0.32941176470588235, "alpha": 1 } },
+    "overlayColor":{ "lightColor":{ "red": 1.0, "green": 1.0, "blue": 1.0, "alpha": 0.3 }, "darkColor":{ "red": 0.1803921568627451, "green": 0.19215686274509805, "blue": 0.32941176470588235, "alpha": 0.3 } },
+    "separatorColor":{ "lightColor":{ "red": 0.1803921568627451, "green": 0.19215686274509805, "blue": 0.32941176470588235, "alpha": 1 }, "darkColor":{ "red": 1.0, "green": 1.0, "blue": 1.0, "alpha": 1 } },
+    "bodyTextColor":{ "lightColor":{ "red": 0.1803921568627451, "green": 0.19215686274509805, "blue": 0.32941176470588235, "alpha": 1 }, "darkColor":{ "red": 1.0, "green": 1.0, "blue": 1.0, "alpha": 1 } },
+    "subtitleTextColor":{ "lightColor":{ "red": 0.20784313725490197, "green": 0.21568627450980393, "blue": 0.30196078431372547, "alpha": 1 }, "darkColor":{ "red": 0.2, "green": 0.2, "blue": 0.2, "alpha": 1 } }
+}
