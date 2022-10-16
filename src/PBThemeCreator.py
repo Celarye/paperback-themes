@@ -2,9 +2,9 @@
 
 class Color:
 
-      def __init__(self, mode, info):
+      def __init__(self, name, info):
 
-            self.mode = mode
+            self.name = name
             self.info = info
             self.hex_l = 'ffffff'
             self.hex_d = 'ffffff'
@@ -28,7 +28,7 @@ class Color:
             
             srgb = '"lightColor":{ ' + srgbl + ' }, "darkColor":{ ' + srgbd + ' } }'
 
-            return '"' + color.mode + '":{ ' + srgb
+            return '"' + color.name + '":{ ' + srgb
 
       def _get_rgb(self, hex):
 
@@ -106,13 +106,13 @@ hexes = []
 
 for color in colors:
 
-      print(color.mode + ':')
+      print(color.name + ':')
 
       print(color.info)
 
-      results.append(color.get_pbcolors_srgb(ask=False))
+      results.append(color.get_pbcolors_srgb(ask=True))
 
-      hexes.append(color.mode + ': ' + 'lightmode: ' + color.hex_l + ', ' + 'darkmode: ' + color.hex_d)
+      hexes.append(color.name + ': ' + 'lightmode: ' + color.hex_l + ', ' + 'darkmode: ' + color.hex_d)
 
 print('{')
 
