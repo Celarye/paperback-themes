@@ -8,7 +8,7 @@ class Color:
             self.info = info
             self.hex_l = 'ffffff'
             self.hex_d = 'ffffff'
-            self.alpha = 2.0
+            self.alpha = 1.0
 
       def get_pbcolors_srgb(self, ask):
 
@@ -112,7 +112,7 @@ for color in colors:
 
       results.append(color.get_pbcolors_srgb(ask=False))
 
-      hexes.append(color.hex_l + ' - ' + color.hex_d)
+      hexes.append(color.mode + ': ' + 'lightmode: ' + color.hex_l + ', ' + 'darkmode: ' + color.hex_d)
 
 print('{')
 
@@ -123,9 +123,9 @@ print('}')
 
 print('Copy the above text and put it in a ".pbcolors" file.')
 
-publictheme = input('Is this theme meant to be a public Paperback theme (for more info check: https://github.com/Celarye/Paperback-themes#theme-creation)? Type "Yes" if it is, otherwise any input will do.')
+publictheme = input('Is this theme meant to be a public Paperback theme (for more info check: https://github.com/Celarye/Paperback-themes#theme-creation) [y/n]? ')
 
-if publictheme == 'Yes':
+if publictheme == 'y' or 'Y':
       print(hexes)
       print('Copy the above and provide it to the theme manager together with the ".pbcolors" file.')
 
