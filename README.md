@@ -65,7 +65,7 @@ You may always make a request for a theme in the Github repository by making a f
 ## Theme creation
 ### Info regarding theme creation for the app.
 
-There is a [Python](https://www.python.org/) program on the Github which you can use to make your own theme, you will need to [install Python 3](https://www.python.org/downloads/) to run it however. And feel free to DM Celarye on Discord the themes you made so he can add them to the public theme repository and Paperback Discord.
+There is a [Python](https://www.python.org/) program in the Github repository which you can use to make your own theme, you will need to [install Python 3](https://www.python.org/downloads/) to run it however. And feel free to DM Celarye on Discord the themes you made so he can add them to the public theme repository and Paperback Discord.
 
 > ***DISCLAIMER:***
 >
