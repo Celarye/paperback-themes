@@ -90,19 +90,23 @@ class Color:
 
 
 colors = [
-      Color('accentColor', 'This are all the red "boxes" in the standard theme.'), 
-      Color('accentTextColor', 'This is all the text in the "accentColor" boxes. It is recommended that you use a color that makes it easy to be read.'), 
-      Color('foregroundColor', 'This are all the "Boxes" which aren\'t red in the standard theme.'), 
-      Color('backgroundColor', 'This is the background in the app.'), 
-      Color('overlayColor', 'This is an overlay that is visible when your library or manga view is fetching updates. It is recommended that you use the same color as you used for "backgroundColor".'), 
-      Color('separatorColor', 'This are the thin seperator lines in the app. It is recommended that you use the same color as you did for "accentColor".'), 
-      Color('bodyTextColor', 'This is the main text in the app.'), 
-      Color('subtitleTextColor', 'this is the secondary text in the app.')
+      Color('accentColor', 'This are all the red "boxes" in the standard theme. Recommended alpha value = 1.'), 
+      Color('accentTextColor', 'This is all the text in the "accentColor" boxes. It is recommended that you use a color that makes it easy to be read. Recommended alpha value = 1.'), 
+      Color('foregroundColor', 'This are all the "Boxes" which aren\'t red in the standard theme. Recommended alpha value = 1.'), 
+      Color('backgroundColor', 'This is the background in the app. Recommended alpha value = 1.'), 
+      Color('overlayColor', 'This is an overlay that is visible when your library or manga view is fetching updates. It is recommended that you use the same color as you used for "backgroundColor". Recommended alpha value = 0.3'), 
+      Color('separatorColor', 'This are the thin seperator lines in the app. It is recommended that you use the same color as you did for "accentColor". Recommended alpha value = 1.'), 
+      Color('bodyTextColor', 'This is the main text in the app. Recommended alpha value = 1.'), 
+      Color('subtitleTextColor', 'This is the secondary text in the app. Recommended alpha value = 1.')
 ]
 
 results = []
 
 hexes = []
+
+print('Paperback theme creator')
+
+print('This program will automatically create a Paperback theme using hexes as input.')
 
 for color in colors:
 
@@ -110,7 +114,7 @@ for color in colors:
 
       print(color.info)
 
-      results.append(color.get_pbcolors_srgb(ask=True))
+      results.append(color.get_pbcolors_srgb(ask=False))
 
       hexes.append(color.name + ': ' + 'lightmode: ' + color.hex_l + ', ' + 'darkmode: ' + color.hex_d)
 
@@ -121,7 +125,7 @@ for index, result in enumerate(results):
 
 print('}')
 
-print('Copy the above text and put it in a ".pbcolors" file.')
+print('Copy the above text and put it in a ".pbcolors" file. After that share the file with the Paperback app.')
 
 publictheme = input('Is this theme meant to be a public Paperback theme (for more info check: https://github.com/Celarye/Paperback-themes#theme-creation) [y/n]? ')
 
