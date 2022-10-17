@@ -114,7 +114,7 @@ for color in colors:
 
       print(color.info)
 
-      results.append(color.get_pbcolors_srgb(ask=False))
+      results.append(color.get_pbcolors_srgb(ask=True))
 
       hexes.append(color.name + ': ' + 'lightmode: ' + color.hex_l + ', ' + 'darkmode: ' + color.hex_d)
 
