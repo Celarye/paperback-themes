@@ -17,8 +17,9 @@ Since the 0.7 release you have the option to use custom themes in the [Paperback
 5) **AniList**: Themes based on the [AniList](https://anilist.co/) themes **[Standard, High Contrast]** (made by Spot and Celarye).
 6) **BlackAndWhite**: A theme completely in black and white (made by Spot).
 7) **Apple**: A theme based on the official [Apple](https://www.apple.com/) colors **[Midnight Blue]** (made by Celarye).
-8) **Request**: Requested themes which might not be for everyone **[Sakura (Naruto)]** (made by Celarye).
-9) **Basic themes**: Some basic themes which are currently being reworked into Advanced themes (made by Celarye) **[CelaryeBlue, CherryBlossomPink, Gray, turquoise, Paperback]**.
+8) **Minty**: An original theme which includes the colors pink and green (made by Minty and Celarye).
+9) **Request**: Requested themes which might not be for everyone **[Sakura (Naruto)]** (made by Celarye).
+10) **Basic themes**: Some basic themes which are currently being reworked into Advanced themes (made by Celarye) **[CelaryeBlue, CherryBlossomPink, Gray, turquoise, Paperback]**.
 
 *Screenshots of how these themes look can be found in the [Github repository](https://github.com/Celarye/Paperback-themes).*
 
@@ -87,3 +88,4 @@ There is a [Python](https://www.python.org/) program in the Github repository wh
 (Celarye: @Celarye # 0001)
 (Brandon: @brandon # 7237)
 (Spot: @spot # 1337)
+(Minty: @minty # 0688)
