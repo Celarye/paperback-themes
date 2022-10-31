@@ -123,7 +123,9 @@ results = "{" + ", " .join(results) + " }"
 
 results_dict = json.loads(results)
 
-with open('theme.pbcolors', 'w') as json_file:
+themename = input('How would you like to call the theme? ')
+
+with open(themename + '.pbcolors', 'w') as json_file:
   json.dump(results_dict, json_file, indent=1)
 
 print('The .pbcolors file was created. To install the theme you will need to share this file with the Paperback app.')
