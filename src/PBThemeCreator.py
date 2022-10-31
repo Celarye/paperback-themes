@@ -1,5 +1,7 @@
 #PB theme creator
 
+import json
+
 class Color:
 
       def __init__(self, name, info):
@@ -22,13 +24,13 @@ class Color:
             rgbl = self._get_rgb(self.hex_l)
             rgbd = self._get_rgb(self.hex_d)
 
-            srgbl = '"red": ' + str(rgbl[0]/255) + ', "green": ' + str(rgbl[1]/255) + ', "blue": ' + str(rgbl[2]/255) + ', "alpha": ' + str(self.alpha) + ''
+            srgbl = '"red":' + str(rgbl[0]/255) + ', "green":' + str(rgbl[1]/255) + ', "blue":' + str(rgbl[2]/255) + ', "alpha":' + str(self.alpha)
 
-            srgbd = '"red": ' + str(rgbd[0]/255) + ', "green": ' + str(rgbd[1]/255) + ', "blue": ' + str(rgbd[2]/255) + ', "alpha": ' + str(self.alpha) + ''
+            srgbd = '"red":' + str(rgbd[0]/255) + ', "green":' + str(rgbd[1]/255) + ', "blue":' + str(rgbd[2]/255) + ', "alpha":' + str(self.alpha)
             
-            srgb = '"lightColor":{ ' + srgbl + ' }, "darkColor":{ ' + srgbd + ' } }'
+            srgb = '"lightColor":{' + srgbl + ' }, "darkColor":{' + srgbd + '} }'
 
-            return '"' + color.name + '":{ ' + srgb
+            return '"' + color.name + '":{' + srgb
 
       def _get_rgb(self, hex):
 
@@ -88,7 +90,6 @@ class Color:
             except:
                   return is_valid
 
-
 colors = [
       Color('accentColor', 'This are all the red "boxes" in the standard theme. Recommended alpha value = 1.'), 
       Color('accentTextColor', 'This is all the text in the "accentColor" boxes. It is recommended that you use a color that makes it easy to be read. Recommended alpha value = 1.'), 
@@ -106,7 +107,7 @@ hexes = []
 
 print('Paperback theme creator')
 
-print('This program will automatically create a Paperback theme using hexes as input.')
+print('This program will automatically create a Paperback theme using hexes and alpha values as input.')
 
 for color in colors:
 
@@ -118,19 +119,21 @@ for color in colors:
 
       hexes.append(color.name + ': ' + 'lightmode: ' + color.hex_l + ', ' + 'darkmode: ' + color.hex_d)
 
-print('{')
+results = "{" + ", " .join(results) + " }"
 
-for index, result in enumerate(results):
-      print(result + (',' if (index < len(results) - 1) else ''))
+results_dict = json.loads(results)
 
-print('}')
+with open('theme.pbcolors', 'w') as json_file:
+  json.dump(results_dict, json_file, indent=1)
 
-print('Copy the above text and put it in a ".pbcolors" file. After that share the file with the Paperback app.')
+print('The .pbcolors file was created. To install the theme you will need to share this file with the Paperback app.')
 
 publictheme = input('Is this theme meant to be a public Paperback theme (for more info check: https://github.com/Celarye/Paperback-themes#theme-creation) [y/n]? ')
 
 if publictheme == 'y' or 'Y':
-      print(hexes)
-      print('Copy the above and provide it to the theme manager together with the ".pbcolors" file.')
 
-wait = input('Press enter to close the program. WARNING: ALL DATA CREATED IN THIS PROGRAM WILL BE LOST!')
+      print(hexes)
+
+      print('Copy the above list and provide it to the theme manager together with the ".pbcolors" file.')
+
+wait = input('Press enter to close the program.')
