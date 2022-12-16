@@ -1,5 +1,5 @@
 # Paperback Themes
-### This is a repository containing all public Paperback themes, this also contains a Python program so you can make your own theme yourself.
+### This repository includes all the available Paperback themes, as well as a Python program that allows you to create your own theme.
 
 Since the 0.7 release you have the option to use custom themes in the [Paperback app](https://paperback.moe/). These themes change the color of the foreground, background, text and other elements in the app.
 
