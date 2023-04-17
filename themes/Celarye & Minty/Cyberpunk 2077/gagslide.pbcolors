@@ -1,0 +1,114 @@
+{
+ "accentColor": {
+  "lightColor": {
+   "red": 0.0,
+   "green": 0.9411764705882353,
+   "blue": 1.0,
+   "alpha": 1
+  },
+  "darkColor": {
+   "red": 0.0,
+   "green": 0.9411764705882353,
+   "blue": 1.0,
+   "alpha": 1
+  }
+ },
+ "accentTextColor": {
+  "lightColor": {
+   "red": 0.054901960784313725,
+   "green": 0.047058823529411764,
+   "blue": 0.0392156862745098,
+   "alpha": 1
+  },
+  "darkColor": {
+   "red": 0.054901960784313725,
+   "green": 0.047058823529411764,
+   "blue": 0.0392156862745098,
+   "alpha": 1
+  }
+ },
+ "foregroundColor": {
+  "lightColor": {
+   "red": 0.054901960784313725,
+   "green": 0.047058823529411764,
+   "blue": 0.0392156862745098,
+   "alpha": 0.4
+  },
+  "darkColor": {
+   "red": 0.054901960784313725,
+   "green": 0.047058823529411764,
+   "blue": 0.0392156862745098,
+   "alpha": 0.4
+  }
+ },
+ "backgroundColor": {
+  "lightColor": {
+   "red": 0.054901960784313725,
+   "green": 0.047058823529411764,
+   "blue": 0.0392156862745098,
+   "alpha": 1
+  },
+  "darkColor": {
+   "red": 0.054901960784313725,
+   "green": 0.047058823529411764,
+   "blue": 0.0392156862745098,
+   "alpha": 1
+  }
+ },
+ "overlayColor": {
+  "lightColor": {
+   "red": 0.054901960784313725,
+   "green": 0.047058823529411764,
+   "blue": 0.0392156862745098,
+   "alpha": 0.3
+  },
+  "darkColor": {
+   "red": 0.054901960784313725,
+   "green": 0.047058823529411764,
+   "blue": 0.0392156862745098,
+   "alpha": 0.3
+  }
+ },
+ "separatorColor": {
+  "lightColor": {
+   "red": 0.0,
+   "green": 0.9411764705882353,
+   "blue": 1.0,
+   "alpha": 1
+  },
+  "darkColor": {
+   "red": 0.0,
+   "green": 0.9411764705882353,
+   "blue": 1.0,
+   "alpha": 1
+  }
+ },
+ "bodyTextColor": {
+  "lightColor": {
+   "red": 0.9882352941176471,
+   "green": 0.9333333333333333,
+   "blue": 0.03529411764705882,
+   "alpha": 1
+  },
+  "darkColor": {
+   "red": 0.9882352941176471,
+   "green": 0.9333333333333333,
+   "blue": 0.03529411764705882,
+   "alpha": 1
+  }
+ },
+ "subtitleTextColor": {
+  "lightColor": {
+   "red": 0.0,
+   "green": 0.9411764705882353,
+   "blue": 1.0,
+   "alpha": 1
+  },
+  "darkColor": {
+   "red": 0.0,
+   "green": 0.9411764705882353,
+   "blue": 1.0,
+   "alpha": 1
+  }
+ }
+}
