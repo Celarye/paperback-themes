@@ -1,5 +1,6 @@
 # Paperback Themes
-### This repository includes all the available Paperback themes, as well as a Python program that allows you to create your own theme.
+
+## This repository includes all the available Paperback themes, as well as a Python program that allows you to create your own theme
 
 Since the 0.7 release you have the option to use custom themes in the [Paperback app](https://paperback.moe/). These themes change the color of the foreground, background, text and other elements in the app.
 
@@ -26,7 +27,8 @@ Since the 0.7 release you have the option to use custom themes in the [Paperback
 ---
 
 ## FAQ
-### Frequently asked questions regarding themes in the app.
+
+### Frequently asked questions regarding themes in the app
 
 **1. How do I install/implement a theme?**
 
@@ -41,6 +43,7 @@ No, these files are basic JSON files which only change color values in the app.
 The version of the theme that displays depends on the appearance setting of your iPhone/iPad. So if you have your iPhone/iPad in dark mode the app will be in dark mode as well and the other way around for when your iPhone/iPad is in light mode. To change this navigate to the the "Settings" app on your iphone/iPad, go to "Display & Brightness" and switch between dark and light mode under "Appearance". Another way to this to open control center (by swiping down from the right top or up from the center from your iPhone/iPad depending on the version of your operating system), long pressing the brightness bar and switching between dark and light mode with the button which appears on the bottom left.
 
 You can also have your iPhone/iPad automatically change between dark or light mode when entering the app and then switch back when leaving the app using an automation in the "Shortcuts" app. Here is a guide on how to do this:
+
 1) Open the "Shortcuts" app and tap on the tab "Automation".
 2) Tap on the plus sign on the top right and select "Create Personal Automation".
 3) In the list, find and select "App".
@@ -64,7 +67,8 @@ You may always make a request for a theme in the Github repository by making a f
 ---
 
 ## Theme creation
-### Info regarding theme creation for the app.
+
+### Info regarding theme creation for the app
 
 There is a [Python](https://www.python.org/) program in the Github repository which you can use to make your own theme, you will need to [install Python 3](https://www.python.org/downloads/) to run it however. And feel free to DM Celarye on Discord the themes you made so he can add them to the public theme repository and Paperback Discord (if it fits the requirements shown bellow).
 
@@ -72,7 +76,7 @@ There is a [Python](https://www.python.org/) program in the Github repository wh
 >
 > *All themes you make and want to be added to the public theme repository and Paperback Discord under your name will have to be made with the Python program from the Github repository, and you will also have to send a list of all the hexes you used (gets made by the program as well).*
 > *You will not have to follow the guide in the program for 100% but if you don't you will need to justify it (however, both light and dark mode support is mandatory).*
-> 
+>
 > *These rules are to increase efficiency and quality of the themes.*
 >
 > *Also make sure to not make any themes someone else got planned already (check with Celarye trough a Discord DM for that and let him know which ones you are planning on making so he can prevent duplicates from being made).*
