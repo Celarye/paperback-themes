@@ -75,12 +75,9 @@ class Color:
 
         if len(valid_hex) == 6:
 
-            for i in enumerate(valid_hex):
-
-                current_character = valid_hex[i].lower()
-                if (current_character >= '0' and current_character <= '9') or \
-                    (current_character >= 'a' and current_character <= 'f'):
-                    is_valid = True
+            for current_character in valid_hex.lower():
+                is_valid = (current_character >= '0' and current_character <= '9') or \
+                    (current_character >= 'a' and current_character <= 'f')
 
         return is_valid
 
