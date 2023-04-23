@@ -6,13 +6,13 @@ import json
 class Color:
     """The Color class"""
 
-    def __init__(self, name, info):
 
+    def __init__(self, name, info, alpha = 1.0, hex_l = 'ffffff', hex_d = 'ffffff'):
         self.name = name
         self.info = info
-        self.hex_l = 'ffffff'
-        self.hex_d = 'ffffff'
-        self.alpha = 1.0
+        self.hex_l = hex_l
+        self.hex_d = hex_d
+        self.alpha = alpha
 
     def get_pbcolors_srgb(self, ask):
         """Gets the hexadecimal color codes, converts them to srgb and returns them in the correct format"""
@@ -92,20 +92,31 @@ class Color:
             return is_valid
         except ValueError():
             return is_valid
+        
+    def json_to_class(self, str, val):
+        match str:
+            case 'lightmode': self.hex_l = val
+            case 'darkmode': self.hex_d = val
+            case 'alpha': self.alpha = val
 
 
 colors = [
-    Color('accentColor', 'This are all the red "boxes" in the standard theme.\nRecommended alpha value = 1.'),
-    Color('accentTextColor', 'This is all the text in the "accentColor" boxes.\nIt is recommended that you use a color that makes it easy to be read.\nRecommended alpha value = 1.'),
-    Color('foregroundColor', 'This are all the "Boxes" which aren\'t red in the standard theme.\nRecommended alpha value = 1.'),
+    Color('accentColor', 
+          'This are all the red "boxes" in the standard theme.\nRecommended alpha value = 1.', 1.0),
+    Color('accentTextColor', 
+          'This is all the text in the "accentColor" boxes.\nIt is recommended that you use a color that makes it easy to be read.\nRecommended alpha value = 1.', 1.0),
+    Color('foregroundColor', 
+          'This are all the "Boxes" which aren\'t red in the standard theme.\nRecommended alpha value = 1.', 1.0),
     Color('backgroundColor',
-          'This is the background in the app.\nRecommended alpha value = 1.'),
-    Color('overlayColor', 'This is an overlay that is visible when your library or manga view is fetching updates.\nIt is recommended that you use the same color as you used for "backgroundColor".\nRecommended alpha value = 0.3'),
-    Color('separatorColor', 'This are the thin seperator lines in the app.\nIt is recommended that you use the same color as you did for "accentColor".\nRecommended alpha value = 1.'),
+          'This is the background in the app.\nRecommended alpha value = 1.', 1.0),
+    Color('overlayColor', 
+          'This is an overlay that is visible when your library or manga view is fetching updates.\nIt is recommended that you use the same color as you used for "backgroundColor".\nRecommended alpha value = 0.3', 0.3),
+    Color('separatorColor', 
+          'This are the thin seperator lines in the app.\nIt is recommended that you use the same color as you did for "accentColor".\nRecommended alpha value = 1.', 1.0),
     Color('bodyTextColor',
-          'This is the main text in the app.\nRecommended alpha value = 1.'),
+          'This is the main text in the app.\nRecommended alpha value = 1.', 1.0),
     Color('subtitleTextColor',
-          'This is the secondary text in the app.\nRecommended alpha value = 1.')
+          'This is the secondary text in the app.\nRecommended alpha value = 1.', 1.0)
 ]
 
 results = []
@@ -116,35 +127,52 @@ print('Paperback theme creator')
 
 print('This program will automatically create a Paperback theme using hexes and alpha values as input.')
 
-for color in colors:
+uses_json = input('Do you have a .json file with the colors [y/N]? ').lower()
 
-    print(color.name + ':')
+if uses_json == 'y' and uses_json != '':
+    import json
+    file_path = input('Path: ')
+    
+    data = json.load(open(file_path))
+    for index, color in enumerate(colors):
+        for h in data[color.name]:
+            color.json_to_class(h, data[color.name][h])
+        hexes.append(color.name + ': ' + 'lightmode: ' + color.hex_l + ', ' + 'darkmode: ' + color.hex_d)
+        results.append(color.get_pbcolors_srgb(False))
 
-    print(color.info)
+else:
+    for color in colors:
 
-    results.append(color.get_pbcolors_srgb(ask=True))
+        print(color.name + ':')
 
-    hexes.append(color.name + ': ' + 'lightmode: ' +
-                 color.hex_l + ', ' + 'darkmode: ' + color.hex_d)
+        print(color.info)
+
+        results.append(color.get_pbcolors_srgb(ask=True))
+
+        hexes.append(color.name + ': ' + 'lightmode: ' +
+                    color.hex_l + ', ' + 'darkmode: ' + color.hex_d)
 
 RESULTS = "{" + ", " .join(results) + " }"
 
 results_dict = json.loads(RESULTS)
 
-themename = input('How would you like to call the theme? ')
+themename = input('What would you like to call the theme? ')
+save_path = ''
 
 with open(themename + '.pbcolors', 'w', encoding="utf-8") as json_file:
     json.dump(results_dict, json_file, indent=1)
 
-print('The .pbcolors file was created. To install the theme you will need to share this file with the Paperback app.')
+save_path = themename + '.pbcolors'
+print('The .pbcolors file was created at ' + save_path + '. To install the theme you will need to open this file in the Paperback app.')
 
 publictheme = input(
-    'Is this theme meant to be a public Paperback theme (for more info check: https://github.com/Celarye/Paperback-themes#theme-creation) [y/n]? ')
+    'Is this theme meant to be a public Paperback theme (for more info check: https://github.com/Celarye/Paperback-themes#theme-creation) [Y/n]? ').lower()
 
-if publictheme == 'y' or 'Y':
+if publictheme == 'y':
 
     print(hexes)
 
     print('Copy the above list and provide it to the theme manager together with the ".pbcolors" file.')
 
 input('Press enter to close the program.')
+

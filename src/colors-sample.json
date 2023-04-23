@@ -1,0 +1,42 @@
+{
+    "accentColor": {
+        "lightmode": "5e81ac",
+        "darkmode": "5e81ac",
+        "alpha": 1.0
+    },
+    "accentTextColor": {
+        "lightmode": "e5e9f0",
+        "darkmode": "2e3440",
+        "alpha": 1.0
+    },
+    "foregroundColor": {
+        "lightmode": "eceff4",
+        "darkmode": "3b4252",
+        "alpha": 1.0
+    },
+    "backgroundColor": {
+        "lightmode": "e5e9f0",
+        "darkmode": "2e3440",
+        "alpha": 1.0
+    },
+    "overlayColor": {
+        "lightmode": "e5e9f0",
+        "darkmode": "2e3440",
+        "alpha": 0.3
+    },
+    "separatorColor": {
+        "lightmode": "5e81ac",
+        "darkmode": "5e81ac",
+        "alpha": 1.0
+    },
+    "bodyTextColor": {
+        "lightmode": "2e3440",
+        "darkmode": "eceff4",
+        "alpha": 1.0
+    },
+    "subtitleTextColor": {
+        "lightmode": "434c5e",
+        "darkmode": "e5e9f0",
+        "alpha": 1.0
+    }
+}
