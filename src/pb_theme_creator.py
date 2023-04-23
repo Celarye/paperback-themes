@@ -2,6 +2,7 @@
 
 import json
 
+
 class Color:
     """The Color class"""
 
@@ -14,8 +15,7 @@ class Color:
         self.alpha = 1.0
 
     def get_pbcolors_srgb(self, ask):
-        """Gets the hexadecimal color codes,\
-             converts them to srgb and returns them in the correct format"""
+        """Gets the hexadecimal color codes, converts them to srgb and returns them in the correct format"""
 
         if ask:
 
@@ -76,8 +76,8 @@ class Color:
         if len(valid_hex) == 6:
 
             for current_character in valid_hex.lower():
-                is_valid = (current_character >= '0' and current_character <= '9') or \
-                    (current_character >= 'a' and current_character <= 'f')
+                is_valid = (current_character >= '0' and current_character <= '9') or (
+                    current_character >= 'a' and current_character <= 'f')
 
         return is_valid
 
@@ -95,21 +95,13 @@ class Color:
 
 
 colors = [
-    Color('accentColor', 'This are all the red "boxes" in the standard theme.\
-        \nRecommended alpha value = 1.'),
-    Color('accentTextColor', 'This is all the text in the "accentColor" boxes.\
-        \nIt is recommended that you use a color that makes it easy to be read.\
-            \nRecommended alpha value = 1.'),
-    Color('foregroundColor', 'This are all the "Boxes" which aren\'t red in the standard theme.\
-        \nRecommended alpha value = 1.'),
+    Color('accentColor', 'This are all the red "boxes" in the standard theme.\nRecommended alpha value = 1.'),
+    Color('accentTextColor', 'This is all the text in the "accentColor" boxes.\nIt is recommended that you use a color that makes it easy to be read.\nRecommended alpha value = 1.'),
+    Color('foregroundColor', 'This are all the "Boxes" which aren\'t red in the standard theme.\nRecommended alpha value = 1.'),
     Color('backgroundColor',
           'This is the background in the app.\nRecommended alpha value = 1.'),
-    Color('overlayColor', 'This is an overlay that is visible when your library\
-         or manga view is fetching updates.\nIt is recommended that you use the same color\
-             as you used for "backgroundColor".\nRecommended alpha value = 0.3'),
-    Color('separatorColor', 'This are the thin seperator lines in the app.\
-        \nIt is recommended that you use the same color as you did for "accentColor".\
-            \nRecommended alpha value = 1.'),
+    Color('overlayColor', 'This is an overlay that is visible when your library or manga view is fetching updates.\nIt is recommended that you use the same color as you used for "backgroundColor".\nRecommended alpha value = 0.3'),
+    Color('separatorColor', 'This are the thin seperator lines in the app.\nIt is recommended that you use the same color as you did for "accentColor".\nRecommended alpha value = 1.'),
     Color('bodyTextColor',
           'This is the main text in the app.\nRecommended alpha value = 1.'),
     Color('subtitleTextColor',
@@ -122,8 +114,7 @@ hexes = []
 
 print('Paperback theme creator')
 
-print('This program will automatically create a Paperback theme\
-     using hexes and alpha values as input.')
+print('This program will automatically create a Paperback theme using hexes and alpha values as input.')
 
 for color in colors:
 
@@ -145,17 +136,15 @@ themename = input('How would you like to call the theme? ')
 with open(themename + '.pbcolors', 'w', encoding="utf-8") as json_file:
     json.dump(results_dict, json_file, indent=1)
 
-print('The .pbcolors file was created.\
-     To install the theme you will need to share this file with the Paperback app.')
+print('The .pbcolors file was created. To install the theme you will need to share this file with the Paperback app.')
 
-publictheme = input('Is this theme meant to be a public Paperback theme\
-     (for more info check: https://github.com/Celarye/Paperback-themes#theme-creation) [y/n]? ')
+publictheme = input(
+    'Is this theme meant to be a public Paperback theme (for more info check: https://github.com/Celarye/Paperback-themes#theme-creation) [y/n]? ')
 
 if publictheme == 'y' or 'Y':
 
     print(hexes)
 
-    print('Copy the above list and provide it to the theme manager\
-         together with the ".pbcolors" file.')
+    print('Copy the above list and provide it to the theme manager together with the ".pbcolors" file.')
 
-wait = input('Press enter to close the program.')
+input('Press enter to close the program.')
