@@ -1,101 +1,101 @@
 {
 	"accentColor": {
 		"lightColor": {
-			"hexCode": "5e81ac",
+			"hexCode": "#5e81ac",
 			"alpha": 1
 		},
 		"darkColor": {
-			"hexCode": "5e81ac",
+			"hexCode": "#5e81ac",
 			"alpha": 1
 		}
 	},
 	"accentTextColor": {
 		"lightColor": {
-			"hexCode": "e5e9f0",
+			"hexCode": "#e5e9f0",
 			"alpha": 1
 		},
 		"darkColor": {
-			"hexCode": "2e3440",
+			"hexCode": "#2e3440",
 			"alpha": 1
 		}
 	},
 	"foregroundColor": {
 		"lightColor": {
-			"hexCode": "eceff4",
+			"hexCode": "#eceff4",
 			"alpha": 1
 		},
 		"darkColor": {
-			"hexCode": "3b4252",
+			"hexCode": "#3b4252",
 			"alpha": 1
 		}
 	},
 	"backgroundColor": {
 		"lightColor": {
-			"hexCode": "e5e9f0",
+			"hexCode": "#e5e9f0",
 			"alpha": 1
 		},
 		"darkColor": {
-			"hexCode": "2e3440",
+			"hexCode": "#2e3440",
 			"alpha": 1
 		}
 	},
 	"overlayColor": {
 		"lightColor": {
-			"hexCode": "e5e9f0",
+			"hexCode": "#e5e9f0",
 			"alpha": 0.3
 		},
 		"darkColor": {
-			"hexCode": "2e3440",
+			"hexCode": "#e3440",
 			"alpha": 0.3
 		}
 	},
 	"separatorColor": {
 		"lightColor": {
-			"hexCode": "5e81ac",
+			"hexCode": "#5e81ac",
 			"alpha": 0.3
 		},
 		"darkColor": {
-			"hexCode": "5e81ac",
+			"hexCode": "#5e81ac",
 			"alpha": 0.3
 		}
 	},
 	"bodyTextColor": {
 		"lightColor": {
-			"hexCode": "2e3440",
+			"hexCode": "#2e3440",
 			"alpha": 1
 		},
 		"darkColor": {
-			"hexCode": "eceff4",
+			"hexCode": "#eceff4",
 			"alpha": 1
 		}
 	},
 	"subtitleTextColor": {
 		"lightColor": {
-			"hexCode": "434c5e",
+			"hexCode": "#434c5e",
 			"alpha": 1
 		},
 		"darkColor": {
-			"hexCode": "e5e9f0",
+			"hexCode": "#e5e9f0",
 			"alpha": 1
 		}
 	},
 	"buttonNormalBackgroundColor": {
 		"lightColor": {
-			"hexCode": "5e81ac",
+			"hexCode": "#5e81ac",
 			"alpha": 0.3
 		},
 		"darkColor": {
-			"hexCode": "5e81ac",
+			"hexCode": "#5e81ac",
 			"alpha": 0.3
 		}
 	},
 	"buttonNormalTextColor": {
 		"lightColor": {
-			"hexCode": "2e3440",
+			"hexCode": "#2e3440",
 			"alpha": 1
 		},
 		"darkColor": {
-			"hexCode": "e5e9f0",
+			"hexCode": "#e5e9f0",
 			"alpha": 1
 		}
 	}

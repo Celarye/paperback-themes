@@ -640,13 +640,11 @@ class Main:
 
                     case '':
                         print(
-                            '        Empty input detected, using the default value.')
+                            '          Empty input detected, using the default value.')
 
                         is_valid_rgb_value = True
 
                         default_value = True
-
-                        # FIXME: fix proper break
 
                     case _:
                         is_valid_rgb_value = Colors.rgb_validator(
@@ -654,10 +652,11 @@ class Main:
 
                         if not is_valid_rgb_value:
                             print(
-                                '        Your input wasn\'t a valid RGB value, please try again.\n')
+                                '          Your input wasn\'t a valid RGB value, please try again.\n')
 
                         else:
                             default_value = False
+
             match default_value:
                 case True:
                     break
@@ -684,7 +683,7 @@ class Main:
                     return
 
                 case '':
-                    print('        Empty input detected, using the default value.')
+                    print('          Empty input detected, using the default value.')
 
                     is_valid_alpha = True
 
@@ -693,7 +692,7 @@ class Main:
 
                     if not is_valid_alpha:
                         print(
-                            '        Your input wasn\'t a correct alpha value, please try again.\n')
+                            '          Your input wasn\'t a correct alpha value, please try again.\n')
                     else:
                         value[-1] = float(alpha_value)
 
