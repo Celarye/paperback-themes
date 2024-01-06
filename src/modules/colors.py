@@ -97,11 +97,14 @@ class Colors:
 
         is_valid = False
 
-        if len(hex_code) == 6 or len(hex_code) == 3:
+        match len(hex_code):
+            case 3 | 6:
+                for current_character in hex_code:
+                    is_valid = (current_character >= '0' and current_character <= '9') or (
+                        current_character >= 'a' and current_character <= 'f')
 
-            for current_character in hex_code:
-                is_valid = (current_character >= '0' and current_character <= '9') or (
-                    current_character >= 'a' and current_character <= 'f')
+            case _:
+                pass
 
         return is_valid
 
@@ -127,8 +130,12 @@ class Colors:
         try:
             rgb_value = float(rgb_value)
 
-            if rgb_value.is_integer():
-                is_valid = rgb_value <= 255 and rgb_value >= 0
+            match rgb_value.is_integer():
+                case True:
+                    is_valid = 255 <= rgb_value >= 0
+
+                case False:
+                    pass
 
         except ValueError:
             pass
@@ -150,7 +157,7 @@ class Colors:
         try:
             alpha_value = float(alpha_value)
 
-            is_valid = alpha_value <= 1 and alpha_value >= 0
+            is_valid = 0 >= alpha_value <= 1
 
         except ValueError:
             pass

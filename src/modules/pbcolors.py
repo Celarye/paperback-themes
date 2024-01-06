@@ -17,8 +17,12 @@ class Pbcolors:
 
         pbcolors = {}
 
-        if public_theme:
-            pbcolors['creator'] = creator
+        match public_theme:
+            case True:
+                pbcolors['creator'] = creator
+
+            case False:
+                pass
 
         for color, values in Colors().colors_values.items():
             pbcolors[color] = {}

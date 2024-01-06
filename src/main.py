@@ -1,6 +1,7 @@
 '''The main script file'''
 
 import os
+import sys
 import json
 import re
 import webbrowser
@@ -44,14 +45,6 @@ class Main:
         print('  - RGBA values')
         print('  - sRGBA values')
 
-        print('\nTips:')
-
-        print('  - Type "help" into the input field bellow to see examples of the manual input types and the allowed file structures.')
-
-        print('  - You can enter "input" to change the input method while in manual input mode.')
-
-        print('  - Not entering a value in a manual input field will cause it to use the default color.')
-
         print('\n##########################')
 
         Main._input_method()
@@ -61,6 +54,8 @@ class Main:
         '''Asks the input method and runs the according method based on it'''
 
         is_valid_input_method = False
+
+        print('\nTip: Type "help" into the input field bellow to see examples of the manual input types and the allowed file structures.')
 
         while not is_valid_input_method:
             input_method = input(
@@ -94,6 +89,14 @@ class Main:
                             case _:
                                 print(
                                     '  Your input method type wasn\'t recognized, make sure to use one if the available input method types.')
+
+                    print('\nTips:')
+
+                    print(
+                        '  - You can enter "input" to change the manual input method type.')
+
+                    print(
+                        '  - Not entering a value will cause it to use the default color.')
 
                     for color, value in Colors.colors_info.items():
                         print(f'\n{color[0].upper() + color[1:]}:')
@@ -208,11 +211,12 @@ class Main:
             try:
                 file = json.load(open(file_path, encoding='utf8'))
 
-                if file_path.endswith('.pbcolors'):
-                    print('  Succesfully loaded the .pbcolors file.')
+                match os.path.splitext(file_path):
+                    case '.pbcolors':
+                        print('  Succesfully loaded the .pbcolors file.')
 
-                elif file_path.endswith('.json'):
-                    print('  Succesfully loaded the .json file.')
+                    case '.json':
+                        print('  Succesfully loaded the .json file.')
 
             except json.JSONDecodeError as e:
                 print(f'  Error decoding the .pbcolors file: {
@@ -351,12 +355,15 @@ class Main:
 
                         found_schema = 'hex_a_schema'
 
-                        if Main.schema != found_schema:
+                        match found_schema:
+                            case Main.schema:
+                                pass
 
-                            Main.schema = found_schema
+                            case _:
+                                Main.schema = found_schema
 
-                            print(
-                                '\n    Found schema: HEX color codes + alpha values')
+                                print(
+                                    '\n    Found schema: HEX color codes + alpha values')
 
                         print('\n    Found values:')
                         print(
@@ -370,6 +377,9 @@ class Main:
                                     case '':
                                         Main.input_method_type = input(
                                             '\nWhat manual input method type do you want to use [hex+a/rgba]? ').lower()
+
+                                    case _:
+                                        pass
 
                                 Main._manual_input(color, mode_index)
 
@@ -401,11 +411,14 @@ class Main:
 
                             found_schema = 'rgba_schema'
 
-                            if Main.schema != found_schema:
+                            match found_schema:
+                                case Main.schema:
+                                    pass
 
-                                Main.schema = found_schema
+                                case _:
+                                    Main.schema = found_schema
 
-                                print('\n    Found schema: RGBA values')
+                                    print('\n    Found schema: RGBA values')
 
                             print('\n    Found values:')
                             print(
@@ -423,6 +436,9 @@ class Main:
                                         case '':
                                             Main.input_method_type = input(
                                                 '\nWhat manual input method type do you want to use [hex+a/rgba]? ').lower()
+
+                                        case _:
+                                            pass
 
                                     Main._manual_input(color, mode_index)
 
@@ -454,11 +470,14 @@ class Main:
 
                                 found_schema = 'srgba_schema'
 
-                                if Main.schema != found_schema:
+                                match found_schema:
+                                    case Main.schema:
+                                        pass
 
-                                    Main.schema = found_schema
+                                    case _:
+                                        Main.schema = found_schema
 
-                                    print('\n    Found schema: sRGBA values')
+                                        print('\n    Found schema: sRGBA values')
 
                                 print('\n    Found values:')
                                 print(
@@ -476,6 +495,9 @@ class Main:
                                             case '':
                                                 Main.input_method_type = input(
                                                     '\nWhat manual input method type do you want to use [hex+a/rgba]? ').lower()
+
+                                            case _:
+                                                pass
 
                                         Main._manual_input(color, mode_index)
 
@@ -502,14 +524,14 @@ class Main:
                                             '.temp')
 
                             except exceptions.ValidationError:
-                                print('  The '' + color + '' values for ' + mode +
-                                      'mode were unable to be parsed, you will need to enter them manually.')
+                                print(f'  The "{color}" values for {
+                                      mode}mode were unable to be parsed, you will need to enter them manually.')
 
                                 Main._manual_input(color, mode_index)
 
             except KeyError:
-                print('  The "' + color +
-                      '" values were not found, you will need to enter them manually.')
+                print(f'  The "{
+                      color}" values were not found, you will need to enter them manually.')
 
                 Main._manual_input(color, mode_index)
 
@@ -577,13 +599,14 @@ class Main:
                 case _:
                     is_valid_hex = Colors.hex_validator(hex_code)
 
-                    if not is_valid_hex:
-                        print(
-                            '      Your input wasn\'t a HEX code, please try again.')
+                    match is_valid_hex:
+                        case True:
+                            for index, srgb_value in enumerate(Colors.hex_to_srgb(hex_code)):
+                                value[index] = srgb_value
 
-                    else:
-                        for index, srgb_value in enumerate(Colors.hex_to_srgb(hex_code)):
-                            value[index] = srgb_value
+                        case False:
+                            print(
+                                '      Your input wasn\'t a HEX code, please try again.')
 
         is_valid_alpha = False
 
@@ -603,12 +626,13 @@ class Main:
                 case _:
                     is_valid_alpha = Colors.alpha_validator(alpha_value)
 
-                    if not is_valid_alpha:
-                        print(
-                            '      Your input wasn\'t a correct alpha value, please try again.')
+                    match is_valid_alpha:
+                        case True:
+                            value[-1] = float(alpha_value)
 
-                    else:
-                        value[-1] = float(alpha_value)
+                        case False:
+                            print(
+                                '      Your input wasn\'t a correct alpha value, please try again.')
 
         Colors.colors_values[color][mode_index] = value
 
@@ -650,12 +674,13 @@ class Main:
                         is_valid_rgb_value = Colors.rgb_validator(
                             rgb_values[index])
 
-                        if not is_valid_rgb_value:
-                            print(
-                                '          Your input wasn\'t a valid RGB value, please try again.\n')
+                        match is_valid_rgb_value:
+                            case True:
+                                default_value = False
 
-                        else:
-                            default_value = False
+                            case False:
+                                print(
+                                    '          Your input wasn\'t a valid RGB value, please try again.\n')
 
             match default_value:
                 case True:
@@ -690,11 +715,13 @@ class Main:
                 case _:
                     is_valid_alpha = Colors.alpha_validator(alpha_value)
 
-                    if not is_valid_alpha:
-                        print(
-                            '          Your input wasn\'t a correct alpha value, please try again.\n')
-                    else:
-                        value[-1] = float(alpha_value)
+                    match is_valid_alpha:
+                        case True:
+                            value[-1] = float(alpha_value)
+
+                        case False:
+                            print(
+                                '          Your input wasn\'t a correct alpha value, please try again.\n')
 
         Colors.colors_values[color][mode_index] = value
 
@@ -761,7 +788,7 @@ class Main:
 
                         case _:
                             print(
-                                '\nYou will need to manually open an issue in this GitHub repository: https://github.com/Celarye/paperback-themes')
+                                '\nYou will need to manually open an issue in this GitHub repository: https://github.com/Celarye/paperback-themes.\nThere is an issue template for new themes.')
 
                     valid_input = True
 
@@ -799,5 +826,16 @@ class Main:
         input('\nPress any key to end the script...')
 
 
-if __name__ == '__main__':
-    Main.intro()
+match __name__:
+    case '__main__':
+        try:
+            Main.intro()
+
+        except KeyboardInterrupt:
+            print('\nKeyboard interrupt detected, stopping the program.')
+
+            try:
+                sys.exit(130)
+
+            except SystemExit:
+                os._exit(130)
