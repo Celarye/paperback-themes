@@ -322,19 +322,19 @@ class Main:
                                 'type': 'object',
                                 'properties': {
                                     'red': {
-                                        'type': 'integer',
+                                        'type': 'number',
                                         'minimum': 0,
-                                        'maximum': 255
+                                        'maximum': 1
                                     },
                                     'green': {
-                                        'type': 'integer',
+                                        'type': 'number',
                                         'minimum': 0,
-                                        'maximum': 255
+                                        'maximum': 1
                                     },
                                     'blue': {
-                                        'type': 'integer',
+                                        'type': 'number',
                                         'minimum': 0,
-                                        'maximum': 255
+                                        'maximum': 1
                                     },
                                     'alpha': {
                                         'type': 'number',
@@ -451,9 +451,9 @@ class Main:
                                 case _:
                                     value = Colors.colors_values[color][mode_index]
 
-                                    for index, color in enumerate(['red', 'green', 'blue']):
+                                    for index, rgb_color in enumerate(['red', 'green', 'blue']):
                                         value[index] = file[color][mode +
-                                                                   'Color'][color]
+                                                                   'Color'][rgb_color]
 
                                     value[-1] = float(file[color]
                                                       [mode + 'Color']['alpha'])
@@ -511,9 +511,9 @@ class Main:
                                     case _:
                                         value = Colors.colors_values[color][mode_index]
 
-                                        for index, color in enumerate(['red', 'green', 'blue']):
+                                        for index, rgb_color in enumerate(['red', 'green', 'blue']):
                                             value[index] = file[color][mode +
-                                                                       'Color'][color]
+                                                                       'Color'][rgb_color]
 
                                         value[-1] = float(file[color]
                                                           [mode + 'Color']['alpha'])
@@ -737,11 +737,11 @@ class Main:
         while not valid_input:
 
             theme_name = input(
-                '\nHow do you want to name your Paperback theme (only alphanumerics, dashes and underscores are accepted, no spaces)? ')
+                '\nHow do you want to name your Paperback theme (only alphanumerics, dashes, underscores and spaces are accepted)? ')
 
-            match bool(re.match(r'^[A-Za-z0-9-_]+$', theme_name)):
+            match bool(re.match(r'^[\w\- ]+$', theme_name)):
                 case False:
-                    print('  Not valid input, try again.')
+                    print('  Not a valid theme name, try again.')
 
                 case True:
                     valid_input = True
@@ -762,11 +762,11 @@ class Main:
                     while not valid_input:
 
                         creator = input(
-                            '  \nWhat name would you like to go by (only alphanumerics, dashes and underscores are accepted, no spaces)? ')
+                            '  \nWhat name would you like to go by (only alphanumerics, dashes, underscores and spaces are accepted)? ')
 
-                        match bool(re.match(r'^[A-Za-z0-9-_]+$', creator)):
+                        match bool(re.match(r'^[\w\- ]+$', creator)):
                             case False:
-                                print('    Not valid input, try again.')
+                                print('    Not a valid creator name, try again.')
 
                             case True:
                                 valid_input = True
@@ -776,15 +776,15 @@ class Main:
 
                     os.remove('.temp.pbcolors')
 
-                    link = print(
-                        'Can this program open a link to a GitHub issue in the Celarye/paperback-themes repository in your web browser (a GitHub account is required)?\nThis issue will make it possible to review your theme and add it to the public list of themes [y/N].').lower()
+                    link = input(
+                        '\nCan this program open a link to a GitHub issue in the Celarye/paperback-themes repository in your web browser (a GitHub account is required)?\nThis issue will make it possible to review your theme and add it to the public list of themes [y/N].').lower()
 
                     match link:
                         case 'y':
                             print(
-                                f'Openening the following link: https://github.com/Celarye/paperback-themes/issues/new?template=new-theme&title=%5BNEW%20THEME%5D%20{theme_name}')
+                                f'\nOpenening the following link: https://github.com/Celarye/paperback-themes/issues/new?template=theme-request&title=%5BNEW%20THEME%5D%20{theme_name.replace(' ', '%20')}')
                             webbrowser.open(
-                                f'https://github.com/Celarye/paperback-themes/issues/new?template=new-theme&title=%5BNEW%20THEME%5D%20{theme_name}')
+                                f'https://github.com/Celarye/paperback-themes/issues/new?template=theme-request&title=%5BNEW%20THEME%5D%20{theme_name.replace(' ', '%20')}')
 
                         case _:
                             print(
@@ -801,7 +801,7 @@ class Main:
 
                 case 'help':
                     print(
-                        '\nPublic themes are themes which are made available to all the Paperback users through the Celarye/paperback-themes GitHub repository and the official Discord (#themes channel).')
+                        '\nPublic themes are themes which are made available to all the Paperback users through the Celarye/paperback-themes GitHub repository and the official Discord (#themes channel). For more info, check: https://github.com/Celarye/paperback-themes')
 
                 case _:
                     print(
