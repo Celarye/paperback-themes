@@ -1,4 +1,4 @@
-'''The main script file'''
+'''The main program file'''
 
 import os
 import sys
@@ -70,7 +70,7 @@ class Main:
                     is_valid_input_method = True
 
                     print(
-                        '\nThe script will walk you trough all the required values now.')
+                        '\nThe program will walk you trough all the required values now.')
 
                     is_valid_input_method_type = False
 
@@ -777,7 +777,7 @@ class Main:
                     os.remove('.temp.pbcolors')
 
                     link = print(
-                        'Can this script open a link to a GitHub issue in the Celarye/paperback-themes repository in your web browser (a GitHub account is required)?\nThis issue will make it possible to review your theme and add it to the public list of themes [y/N].').lower()
+                        'Can this program open a link to a GitHub issue in the Celarye/paperback-themes repository in your web browser (a GitHub account is required)?\nThis issue will make it possible to review your theme and add it to the public list of themes [y/N].').lower()
 
                     match link:
                         case 'y':
@@ -813,7 +813,7 @@ class Main:
     def _end(public_theme=False):
         print('\nYour theme file was created, you can now share it with the Paperback app.')
 
-        print('\nTip: You can just restart the script and choose the file input method to edit the theme you just made.')
+        print('\nTip: You can just restart the program and choose the file input method to edit the theme you just made.')
 
         match public_theme:
             case True:
