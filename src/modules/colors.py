@@ -6,19 +6,19 @@ class Colors:
 
     colors_info = {
         'accentColor':
-            '  This is for all the non transparent red "boxes" in the standard theme.\n  Recommended alpha value = 1.',
+            '  This is for all the non-transparent red surfaces in the foreground in the standard theme.\n  Recommended alpha value = 1.',
 
             'accentTextColor':
-            '  This is for all the text in those boxes.\n  It is recommended that you use a color that makes it easy to be read.\n  Recommended alpha value = 1.',
+            '  This is for all the text and icons in the accentColor surfaces.\n  It is recommended that you use a color that makes it easy to be read.\n  Recommended alpha value = 1.',
 
             'foregroundColor':
-            '  This is for all the "boxes" which aren\'t red in the standard theme.\n  Recommended alpha value = 1.',
+            '  This is for all the non-transparent non-red surfaces in the foreground in the standard theme.\n  Recommended alpha value = 1.',
 
             'backgroundColor':
             '  This is for the background in the app.\n  Recommended alpha value = 1.',
 
             'overlayColor':
-            '  This is for an overlay that is visible when your library or manga view is fetching updates.\n  It is recommended that you use the same color as you used for "backgroundColor".\n  Recommended alpha value = 0.3',
+            '  This is for an overlay that is visible when the library or manga view is fetching updates.\n  It is recommended that you use the same color as you used for "backgroundColor".\n  Recommended alpha value = 0.3',
 
             'separatorColor':
             '  This is for all the thin seperator lines in the app.\n  It is recommended that you use the same color as you did for "accentColor".\n  Recommended alpha value = 1.',
@@ -30,10 +30,10 @@ class Colors:
             '  This is for all the secondary text in the app.\n  Recommended alpha value = 1.',
 
             'buttonNormalBackgroundColor':
-            '  This is for all the semi-transparent red refresh buttons in the standard theme.\n  Recommended alpha value = 0.3',
+            '  This is for all the semi-transparent red surfaces in the foreground in the standard theme.\n  Recommended alpha value = 0.5',
 
             'buttonNormalTextColor':
-            '  This is for all the refresh icons in those boxes.\n  It is recommended that you use a color that makes it easy to be read.\n  Recommended alpha value = 0.3.'
+            '  This is for all the icons in the buttonNormalBackgroundColor surfaces.\n  It is recommended that you use a color that makes it easy to be read.\n  Recommended alpha value = 1.'
     }
     modes = ['light', 'dark']
     colors_values = {

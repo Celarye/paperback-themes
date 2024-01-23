@@ -14,7 +14,7 @@ from modules.colors import Colors
 
 
 class Main:
-    '''The Main class, handles as central controller and input handler of the script'''
+    '''The Main class, handles as central controller and input handler of the program'''
 
     input_method_type = ''
 
@@ -25,7 +25,7 @@ class Main:
 
     @staticmethod
     def intro():
-        '''Prints the program intro to the CLI and runs the correct methods to run trough the script'''
+        '''Prints the program intro to the CLI and runs the correct methods to run trough the program'''
 
         print('''#############################
 #                           #
@@ -823,7 +823,7 @@ class Main:
             case _:
                 pass
 
-        input('\nPress any key to end the script...')
+        input('\nPress any key to end the program...')
 
 
 match __name__:
