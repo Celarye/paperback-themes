@@ -1,0 +1,142 @@
+{
+	"accentColor": {
+		"lightColor": {
+			"red": 253,
+			"green": 106,
+			"blue": 104,
+			"alpha": 1
+		},
+		"darkColor": {
+			"red": 253,
+			"green": 106,
+			"blue": 104,
+			"alpha": 1
+		}
+	},
+	"accentTextColor": {
+		"darkColor": {
+			"red": 235,
+			"green": 235,
+			"blue": 235,
+			"alpha": 1
+		},
+		"lightColor": {
+			"red": 255,
+			"green": 255,
+			"blue": 255,
+			"alpha": 1
+		}
+	},
+	"foregroundColor": {
+		"lightColor": {
+			"red": 252,
+			"green": 255,
+			"blue": 255,
+			"alpha": 1
+		},
+		"darkColor": {
+			"red": 23,
+			"green": 23,
+			"blue": 23,
+			"alpha": 1
+		}
+	},
+	"backgroundColor": {
+		"darkColor": {
+			"red": 0,
+			"green": 0,
+			"blue": 0,
+			"alpha": 1
+		},
+		"lightColor": {
+			"red": 0.949999988079071,
+			"green": 0.949999988079071,
+			"blue": 0.949999988079071,
+			"alpha": 1
+		}
+	},
+	"overlayColor": {
+		"lightColor": {
+			"red": 242,
+			"green": 242,
+			"blue": 242,
+			"alpha": 0.3
+		},
+		"darkColor": {
+			"red": 0,
+			"green": 0,
+			"blue": 0,
+			"alpha": 0.3
+		}
+	},
+	"separatorColor": {
+		"lightColor": {
+			"red": 60,
+			"green": 60,
+			"blue": 67,
+			"alpha": 0.3
+		},
+		"darkColor": {
+			"red": 84,
+			"green": 84,
+			"blue": 88,
+			"alpha": 0.3
+		}
+	},
+	"bodyTextColor": {
+		"darkColor": {
+			"red": 0.235,
+			"green": 235,
+			"blue": 0.235,
+			"alpha": 1
+		},
+		"lightColor": {
+			"red": 33,
+			"green": 33,
+			"blue": 33,
+			"alpha": 1
+		}
+	},
+	"subtitleTextColor": {
+		"darkColor": {
+			"red": 192,
+			"green": 192,
+			"blue": 192,
+			"alpha": 1
+		},
+		"lightColor": {
+			"red": 95,
+			"green": 95,
+			"blue": 95,
+			"alpha": 1
+		}
+	},
+	"buttonNormalBackgroundColor": {
+		"darkColor": {
+			"red": 253,
+			"green": 106,
+			"blue": 104,
+			"alpha": 0.3
+		},
+		"lightColor": {
+			"red": 253,
+			"green": 106,
+			"blue": 104,
+			"alpha": 0.3
+		}
+	},
+	"buttonNormalTextColor": {
+		"darkColor": {
+			"red": 235,
+			"green": 235,
+			"blue": 235,
+			"alpha": 1
+		},
+		"lightColor": {
+			"red": 33,
+			"green": 33,
+			"blue": 33,
+			"alpha": 1
+		}
+	}
+}

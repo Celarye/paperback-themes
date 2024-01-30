@@ -1,3 +1,5 @@
-.pylintrc
+# Ignore the Python venv
+venv
 
-TODO.txt
+# Ignore __pychache__   
+__pycache__

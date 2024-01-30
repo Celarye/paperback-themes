@@ -1,0 +1,142 @@
+{
+	"accentColor": {
+		"lightColor": {
+			"red": 0.9919999837875366,
+			"green": 0.41600000858306885,
+			"blue": 0.40799999237060547,
+			"alpha": 1
+		},
+		"darkColor": {
+			"red": 0.9912440180778503,
+			"green": 0.41505861282348633,
+			"blue": 0.406924307346344,
+			"alpha": 1
+		}
+	},
+	"accentTextColor": {
+		"lightColor": {
+			"red": 1,
+			"green": 1,
+			"blue": 1,
+			"alpha": 1
+		},
+		"darkColor": {
+			"red": 0.9210000038146973,
+			"green": 0.9210000038146973,
+			"blue": 0.9210000038146973,
+			"alpha": 1
+		}
+	},
+	"foregroundColor": {
+		"lightColor": {
+			"red": 0.987731397151947,
+			"green": 1,
+			"blue": 1,
+			"alpha": 1
+		},
+		"darkColor": {
+			"red": 0.09000000357627869,
+			"green": 0.09000000357627869,
+			"blue": 0.09000000357627869,
+			"alpha": 1
+		}
+	},
+	"backgroundColor": {
+		"lightColor": {
+			"red": 0.949999988079071,
+			"green": 0.949999988079071,
+			"blue": 0.949999988079071,
+			"alpha": 1
+		},
+		"darkColor": {
+			"red": 0,
+			"green": 0,
+			"blue": 0,
+			"alpha": 1
+		}
+	},
+	"overlayColor": {
+		"lightColor": {
+			"red": 0.949999988079071,
+			"green": 0.949999988079071,
+			"blue": 0.949999988079071,
+			"alpha": 0.3
+		},
+		"darkColor": {
+			"red": 0,
+			"green": 0,
+			"blue": 0,
+			"alpha": 0.3
+		}
+	},
+	"separatorColor": {
+		"lightColor": {
+			"red": 0.23529411764705882,
+			"green": 0.23529411764705882,
+			"blue": 0.2627450980392157,
+			"alpha": 0.3
+		},
+		"darkColor": {
+			"red": 0.32941176470588235,
+			"green": 0.32941176470588235,
+			"blue": 0.34509803921568627,
+			"alpha": 0.3
+		}
+	},
+	"bodyTextColor": {
+		"lightColor": {
+			"red": 0.12999999523162842,
+			"green": 0.12999999523162842,
+			"blue": 0.12999999523162842,
+			"alpha": 1
+		},
+		"darkColor": {
+			"red": 0.9210000038146973,
+			"green": 0.9210000038146973,
+			"blue": 0.9210000038146973,
+			"alpha": 1
+		}
+	},
+	"subtitleTextColor": {
+		"lightColor": {
+			"red": 0.3709999918937683,
+			"green": 0.3709999918937683,
+			"blue": 0.3709999918937683,
+			"alpha": 1
+		},
+		"darkColor": {
+			"red": 0.7540000081062317,
+			"green": 0.7540000081062317,
+			"blue": 0.7540000081062317,
+			"alpha": 1
+		}
+	},
+	"buttonNormalBackgroundColor": {
+		"lightColor": {
+			"red": 0.9919999837875366,
+			"green": 0.41600000858306885,
+			"blue": 0.40799999237060547,
+			"alpha": 0.3
+		},
+		"darkColor": {
+			"red": 0.9912440180778503,
+			"green": 0.41505861282348633,
+			"blue": 0.406924307346344,
+			"alpha": 0.3
+		}
+	},
+	"buttonNormalTextColor": {
+		"lightColor": {
+			"red": 0.12999999523162842,
+			"green": 0.12999999523162842,
+			"blue": 0.12999999523162842,
+			"alpha": 1
+		},
+		"darkColor": {
+			"red": 0.9210000038146973,
+			"green": 0.9210000038146973,
+			"blue": 0.9210000038146973,
+			"alpha": 1
+		}
+	}
+}
