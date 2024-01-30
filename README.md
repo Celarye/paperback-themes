@@ -20,8 +20,9 @@ _("**[...]**": All variations of that theme)_
 7. **Apple**: A theme based on the official [Apple](https://www.apple.com/) colors **[Midnight Blue]** (made by Celarye).
 8. **Minty**: An original theme which includes the colors pink and green (made by Minty and Celarye).
 9. **Nord**: A theme based on the official Nord colors (made by borboss).
-10. **Request**: Requested themes which might not be for everyone **[Sakura (Naruto)]** (made by Celarye).
-11. **Basic themes**: Some basic themes which are currently being reworked into Advanced themes (made by Celarye) **[CelaryeBlue, CherryBlossomPink, Gray, turquoise, Paperback]**.
+10. **Catppuccin**: Themes based on the official Catpuccin colors **[Blue, Green]** (made by Celarye).
+11. **Request**: Requested themes which might not be for everyone **[Sakura (Naruto)]** (made by Celarye).
+12. **Basic themes**: Some basic themes which are currently being reworked into Advanced themes (made by Celarye) **[CelaryeBlue, CherryBlossomPink, Gray, turquoise, Paperback]**.
 
 _Screenshots of how these themes look can be found in the [Github repository](https://github.com/Celarye/Paperback-themes)._
 
@@ -51,7 +52,7 @@ You can also have your iPhone/iPad automatically change between dark or light mo
 4. In the new window, click the "Choose" button, find the "Paperback" app and click "Done" on the top right corner, then underneath that select "Is Opened" and click "Next" on the top right corner.
 5. Click the "Add Action" button and type "appearance" in the search bar, then select "Set Appearance", now choose between dark and light mode by selecting "Dark" and choosing in the pop-up, after that click "Next" on the top right.
 6. Now turn off "Ask Before Running" and click "Don't Ask" on the pop-up, after that click "Done" on the top right corner.
-7. Now repeat step 2) to 6) but choose "Is Closed" in step 4) and choose the opposite appearance mode in step 5).
+7. Now repeat step 2. to 6. but choose "Is Closed" in step 4. and choose the opposite appearance mode in step 5. .
 
 **4. Why won't a theme install?**
 
@@ -89,7 +90,7 @@ There is a [Python](https://www.python.org/) program in the Github repository wh
 
 **References (Discord):**
 
-(Celarye: @Celarye # 0001)
+(Celarye: @Celarye)
 (Brandon: @brandon # 7237)
 (Spot: @spot # 1337)
 (Minty: @minty # 0688)
