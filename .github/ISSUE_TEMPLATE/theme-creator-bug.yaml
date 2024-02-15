@@ -28,7 +28,7 @@ body:
     attributes:
       label: Operating System Version
       description: What operating system (and version) are you using?
-      placeholder: "e.g. Windows 11 version 23H2, Linux Mint 21.3 "Virginia" or macOS Ventura 13.5"
+      placeholder: "e.g. Windows 11 version 23H2, Linux Mint 21.3 Virginia or macOS Ventura 13.5"
     validations:
       required: true
   - type: dropdown
