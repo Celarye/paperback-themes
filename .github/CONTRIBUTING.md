@@ -132,23 +132,19 @@ pip install -U pyinstaller
 # use the "--target-arch ARCH" option to specify your architecture on macOS
 pyinstaller -F -n pbt main.py
 ```
+
 **Contributing to themes:** Themes can be made and edited using the Theme Creator Program, grab the latest release from the GitHub [Releases page](https://github.com/Celarye/paperback-themes/releases). You might need to build the program yourself if your specific OS/architecture build is not there, check out the above step by step guide on how to do that.
 
 ### Improving The Documentation
-<!-- TODO
-Updating, improving and correcting the documentation
 
--->
+Updates, improvements and corrections to the documentation are always welcome.
+
+You can fork this directory and commit your changes to that, afterwards you can make a PR.
 
 ## Styleguides
 ### Commit Messages
-<!-- TODO
 
--->
+Make sure that your commit messages are clear and descriptive.
 
-## Join The Project Team
-<!-- TODO -->
-
-<!-- omit in toc -->
 ## Attribution
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
