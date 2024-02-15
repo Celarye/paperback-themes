@@ -59,7 +59,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement trough
+reported to the community leader responsible for enforcement through
 Discord to [@celarye](https://discord.com/users/408241180405399573).
 All complaints will be reviewed and investigated promptly and fairly.
 
