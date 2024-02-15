@@ -130,7 +130,7 @@ python main.py
 pip install -U pyinstaller
 
 # use the "--target-arch ARCH" option to specify your architecture on macOS
-pyinstaller -F -n pbt main.py
+pyinstaller -F -n pbt -i NONE main.py
 ```
 
 **Contributing to themes:** Themes can be made and edited using the Theme Creator Program, grab the latest release from the GitHub [Releases page](https://github.com/Celarye/paperback-themes/releases). You might need to build the program yourself if your specific OS/architecture build is not there, check out the above step by step guide on how to do that.
