@@ -1,5 +1,6 @@
 {
 	"creator": "Celarye",
+	"description": "The green version of the Mocha [Catppuccin](https://catppuccin-website.vercel.app) theme.",
 	"accentColor": {
 		"lightColor": {
 			"red": 0.25098039215686274,
