@@ -1,0 +1,13 @@
+{
+	"themes": {
+		"catppuccin": {
+			"mocha": ["blue", "green"]
+		}
+	},
+	"creators": {
+		"celarye": {
+			"homepage": "https://celarye.dev",
+			"discordUsername": "@celarye"
+		}
+	}
+}
