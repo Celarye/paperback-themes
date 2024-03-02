@@ -1,9 +1,27 @@
 {
-	"themes": {
-		"catppuccin": {
-			"mocha": ["blue", "green"]
+	"themes": [
+		{
+			"name": "catppuccin",
+			"source": "https://catppuccin-website.vercel.app",
+			"subGroups": [
+				{
+					"name": "mocha",
+					"accentColors": [
+						{
+							"name": "blue",
+							"description": "The blue version of the Mocha Catppuccin theme.",
+							"creators": ["celarye"]
+						},
+						{
+							"name": "green",
+							"description": "The green version of the Mocha Catppuccin theme.",
+							"creators": ["celarye"]
+						}
+					]
+				}
+			]
 		}
-	},
+	],
 	"creators": {
 		"celarye": {
 			"homepage": "https://celarye.dev",
