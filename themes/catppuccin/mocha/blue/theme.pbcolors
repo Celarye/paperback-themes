@@ -1,6 +1,7 @@
 {
+	"description": "The blue version of the Mocha Catppuccin theme.",
+	"source": "https://catppuccin-website.vercel.app",
 	"creator": "Celarye",
-	"description": "The blue version of the Mocha [Catppuccin](https://catppuccin-website.vercel.app) theme.",
 	"accentColor": {
 		"lightColor": {
 			"red": 0.11764705882352941,
