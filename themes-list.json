@@ -10,22 +10,12 @@
 						{
 							"name": "blue",
 							"description": "The blue version of the Mocha Catppuccin theme.",
-							"creators": [
-								{
-									"name": "celarye",
-									"discordID": 408241180405399573
-								}
-							]
+							"creators": ["celarye"]
 						},
 						{
 							"name": "green",
 							"description": "The green version of the Mocha Catppuccin theme.",
-							"creators": [
-								{
-									"name": "celarye",
-									"discordID": 408241180405399573
-								}
-							]
+							"creators": ["celarye"]
 						}
 					]
 				}
