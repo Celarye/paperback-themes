@@ -1,0 +1,145 @@
+{
+  "description": "A dark theme that invites focus, not attention. Inspired by the Kanagawa color theme.",
+  "source": "https://vscodethemes.com/e/Webhooked.kanso-theme/kanso-ink",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "red": 0.36470588235294116,
+      "green": 0.46274509803921571,
+      "blue": 0.51764705882352946,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.41176470588235292,
+      "green": 0.51764705882352946,
+      "blue": 0.57647058823529407,
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "red": 0.88627450980392153,
+      "green": 0.88235294117647056,
+      "blue": 0.87450980392156863,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.77254901960784317,
+      "green": 0.788235294117647,
+      "blue": 0.7803921568627451,
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "red": 0.94901960784313721,
+      "green": 0.94509803921568625,
+      "blue": 0.93725490196078431,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.14509803921568629,
+      "green": 0.14901960784313725,
+      "blue": 0.17647058823529413,
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "red": 0.88627450980392153,
+      "green": 0.88235294117647056,
+      "blue": 0.87450980392156863,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.082352941176470587,
+      "green": 0.090196078431372548,
+      "blue": 0.11372549019607843,
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "red": 0.36470588235294116,
+      "green": 0.46274509803921571,
+      "blue": 0.51764705882352946,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.41176470588235292,
+      "green": 0.51764705882352946,
+      "blue": 0.57647058823529407,
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "red": 0.39215686274509803,
+      "green": 0.29411764705882354,
+      "blue": 0.50196078431372548,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.54509803921568623,
+      "green": 0.56862745098039214,
+      "blue": 0.65098039215686276,
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "red": 0.14509803921568629,
+      "green": 0.14901960784313725,
+      "blue": 0.17647058823529413,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.77254901960784317,
+      "green": 0.788235294117647,
+      "blue": 0.7803921568627451,
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "red": 0.39215686274509803,
+      "green": 0.29411764705882354,
+      "blue": 0.50196078431372548,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.54509803921568623,
+      "green": 0.56862745098039214,
+      "blue": 0.65098039215686276,
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "red": 0.36470588235294116,
+      "green": 0.46274509803921571,
+      "blue": 0.51764705882352946,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.41176470588235292,
+      "green": 0.51764705882352946,
+      "blue": 0.57647058823529407,
+      "alpha": 0.5
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "red": 0.14509803921568629,
+      "green": 0.14901960784313725,
+      "blue": 0.17647058823529413,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.77254901960784317,
+      "green": 0.788235294117647,
+      "blue": 0.7803921568627451,
+      "alpha": 1.0
+    }
+  }
+}

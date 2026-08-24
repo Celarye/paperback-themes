@@ -1,0 +1,105 @@
+{
+  "description": "gruvbox theme.",
+  "source": "https://vscodethemes.com/e/jdinhlife.gruvbox/gruvbox-dark-hard",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "hexCode": "#4C8488",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#4C8488",
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "hexCode": "#F7F6D9",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#1D2021",
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "hexCode": "#E8DCB5",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#3C3836",
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "hexCode": "#F7F6D9",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#1D2021",
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "hexCode": "#B07820",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#F4C041",
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "hexCode": "#ACA998",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#6E6B5C",
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "hexCode": "#3C3836",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#E7DBB4",
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "hexCode": "#ACA998",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#6E6B5C",
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "hexCode": "#B07820",
+      "alpha": 0.4
+    },
+    "darkColor": {
+      "hexCode": "#F4C041",
+      "alpha": 0.8
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "hexCode": "#3C3836",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#E7DBB4",
+      "alpha": 1.0
+    }
+  }
+}

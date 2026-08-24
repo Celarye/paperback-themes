@@ -1,0 +1,145 @@
+{
+  "description": "A clean theme that celebrates the lights of Downtown Tokyo at night.",
+  "source": "https://vscodethemes.com/e/enkia.tokyo-night/tokyo-night-light",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "red": 0.23137254901960785,
+      "green": 0.33725490196078434,
+      "blue": 0.65490196078431373,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.28235294117647058,
+      "green": 0.33725490196078434,
+      "blue": 0.61960784313725492,
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "red": 0.90196078431372551,
+      "green": 0.90588235294117647,
+      "blue": 0.92941176470588238,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.090196078431372548,
+      "green": 0.086274509803921567,
+      "blue": 0.11764705882352941,
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "red": 0.84313725490196079,
+      "green": 0.84705882352941175,
+      "blue": 0.87450980392156863,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.10588235294117647,
+      "green": 0.10588235294117647,
+      "blue": 0.14509803921568629,
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "red": 0.90196078431372551,
+      "green": 0.90588235294117647,
+      "blue": 0.92941176470588238,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.090196078431372548,
+      "green": 0.086274509803921567,
+      "blue": 0.11764705882352941,
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "red": 0.23137254901960785,
+      "green": 0.33725490196078434,
+      "blue": 0.65490196078431373,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.28235294117647058,
+      "green": 0.33725490196078434,
+      "blue": 0.61960784313725492,
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "red": 0.49411764705882355,
+      "green": 0.49803921568627452,
+      "blue": 0.55686274509803924,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.47843137254901963,
+      "green": 0.4823529411764706,
+      "blue": 0.592156862745098,
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "red": 0.2196078431372549,
+      "green": 0.23137254901960785,
+      "blue": 0.29803921568627451,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.7686274509803922,
+      "green": 0.788235294117647,
+      "blue": 0.95294117647058818,
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "red": 0.49411764705882355,
+      "green": 0.49803921568627452,
+      "blue": 0.55686274509803924,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.47843137254901963,
+      "green": 0.4823529411764706,
+      "blue": 0.592156862745098,
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "red": 0.23137254901960785,
+      "green": 0.33725490196078434,
+      "blue": 0.65490196078431373,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.28235294117647058,
+      "green": 0.33725490196078434,
+      "blue": 0.61960784313725492,
+      "alpha": 0.8
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "red": 0.2196078431372549,
+      "green": 0.23137254901960785,
+      "blue": 0.29803921568627451,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.7686274509803922,
+      "green": 0.788235294117647,
+      "blue": 0.95294117647058818,
+      "alpha": 1.0
+    }
+  }
+}

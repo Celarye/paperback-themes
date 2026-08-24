@@ -1,0 +1,105 @@
+{
+  "description": "✨ Professional dark & light theme",
+  "source": "https://vscodethemes.com/e/monokai.theme-monokai-pro-vscode/monokai-pro",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "hexCode": "#DC4C71",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#F9DA70",
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "hexCode": "#EDE7E5",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#19181A",
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "hexCode": "#FAF4F2",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#2D2A2E",
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "hexCode": "#EDE7E5",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#19181A",
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "hexCode": "#DC4C71",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#F9DA70",
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "hexCode": "#A59FA0",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#939293",
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "hexCode": "#29242A",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#FCFCFA",
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "hexCode": "#A59FA0",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#939293",
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "hexCode": "#DC4C71",
+      "alpha": 0.4
+    },
+    "darkColor": {
+      "hexCode": "#F8CE3F",
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "hexCode": "#29242A",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#FCFCFA",
+      "alpha": 1.0
+    }
+  }
+}

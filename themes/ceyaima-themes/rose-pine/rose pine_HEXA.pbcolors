@@ -1,0 +1,105 @@
+{
+  "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+  "source": "https://vscodethemes.com/e/mvllow.rose-pine/rose-pine",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "hexCode": "#D3847D",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#E8BDBA",
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "hexCode": "#F9F4ED",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#1A1723",
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "hexCode": "#F2EDE8",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#231F2D",
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "hexCode": "#F9F4ED",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#1A1723",
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "hexCode": "#D3847D",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#E8BDBA",
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "hexCode": "#8B849D",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#928BA8",
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "hexCode": "#585076",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#E1DEF3",
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "hexCode": "#8B849D",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#928BA8",
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "hexCode": "#D3847D",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#FD6A68",
+      "alpha": 0.3
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "hexCode": "#585076",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#E1DEF3",
+      "alpha": 1.0
+    }
+  }
+}

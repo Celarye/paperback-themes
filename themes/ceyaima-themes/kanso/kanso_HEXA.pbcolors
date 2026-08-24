@@ -1,0 +1,105 @@
+{
+  "description": "A dark theme that invites focus, not attention. Inspired by the Kanagawa color theme.",
+  "source": "https://vscodethemes.com/e/Webhooked.kanso-theme/kanso-ink",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "hexCode": "#5D7684",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#698493",
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "hexCode": "#E2E1DF",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#C5C9C7",
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "hexCode": "#F2F1EF",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#25262D",
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "hexCode": "#E2E1DF",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#15171D",
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "hexCode": "#5D7684",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#698493",
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "hexCode": "#644B80",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#8B91A6",
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "hexCode": "#25262D",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#C5C9C7",
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "hexCode": "#644B80",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#8B91A6",
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "hexCode": "#5D7684",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#698493",
+      "alpha": 0.5
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "hexCode": "#25262D",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#C5C9C7",
+      "alpha": 1.0
+    }
+  }
+}

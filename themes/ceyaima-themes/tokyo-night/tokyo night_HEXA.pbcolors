@@ -1,0 +1,105 @@
+{
+  "description": "A clean theme that celebrates the lights of Downtown Tokyo at night.",
+  "source": "https://vscodethemes.com/e/enkia.tokyo-night/tokyo-night-light",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "hexCode": "#3B56A7",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#48569E",
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "hexCode": "#E6E7ED",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#17161E",
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "hexCode": "#D7D8DF",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#1B1B25",
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "hexCode": "#E6E7ED",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#17161E",
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "hexCode": "#3B56A7",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#48569E",
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "hexCode": "#7E7F8E",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#7A7B97",
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "hexCode": "#383B4C",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#C4C9F3",
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "hexCode": "#7E7F8E",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#7A7B97",
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "hexCode": "#3B56A7",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#48569E",
+      "alpha": 0.8
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "hexCode": "#383B4C",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#C4C9F3",
+      "alpha": 1.0
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "description": "Verdandi themes for paperback",
+  "source": "https://vscodethemes.com/e/be5invis.theme-verdandi/verdandi-alter",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "red": 0.32156862745098042,
+      "green": 0.3411764705882353,
+      "blue": 0.37254901960784315,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.85098039215686272,
+      "green": 0.86274509803921573,
+      "blue": 0.8784313725490196,
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "red": 0.97254901960784312,
+      "green": 0.97647058823529409,
+      "blue": 0.98039215686274506,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.058823529411764705,
+      "green": 0.070588235294117646,
+      "blue": 0.086274509803921567,
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "red": 0.81568627450980391,
+      "green": 0.83137254901960789,
+      "blue": 0.85098039215686272,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.17647058823529413,
+      "green": 0.19607843137254902,
+      "blue": 0.22352941176470589,
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "red": 0.97254901960784312,
+      "green": 0.97647058823529409,
+      "blue": 0.98039215686274506,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.058823529411764705,
+      "green": 0.070588235294117646,
+      "blue": 0.086274509803921567,
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "red": 0.32156862745098042,
+      "green": 0.3411764705882353,
+      "blue": 0.37254901960784315,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.71372549019607845,
+      "green": 0.73333333333333328,
+      "blue": 0.75294117647058822,
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "red": 0.53725490196078429,
+      "green": 0.55686274509803924,
+      "blue": 0.58039215686274515,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.53725490196078429,
+      "green": 0.55686274509803924,
+      "blue": 0.58039215686274515,
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "red": 0.21176470588235294,
+      "green": 0.22745098039215686,
+      "blue": 0.24705882352941178,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.71372549019607845,
+      "green": 0.73333333333333328,
+      "blue": 0.75294117647058822,
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "red": 0.53725490196078429,
+      "green": 0.55686274509803924,
+      "blue": 0.58039215686274515,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.53725490196078429,
+      "green": 0.55686274509803924,
+      "blue": 0.58039215686274515,
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "red": 0.32156862745098042,
+      "green": 0.3411764705882353,
+      "blue": 0.37254901960784315,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.17647058823529413,
+      "green": 0.19607843137254902,
+      "blue": 0.22352941176470589,
+      "alpha": 0.8
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "red": 0.21176470588235294,
+      "green": 0.22745098039215686,
+      "blue": 0.24705882352941178,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.71372549019607845,
+      "green": 0.73333333333333328,
+      "blue": 0.75294117647058822,
+      "alpha": 1.0
+    }
+  }
+}

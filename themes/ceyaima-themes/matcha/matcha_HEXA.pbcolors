@@ -1,0 +1,105 @@
+{
+  "description": "an earthy theme for paperback",
+  "source": "https://github.com/lucafalasco/matcha",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "hexCode": "#9CAB7F",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#9CAB7F",
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "hexCode": "#DAE0DC",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#D8D7C2",
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "hexCode": "#EAEEEB",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#283136",
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "hexCode": "#DAE0DC",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#1D2427",
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "hexCode": "#445858",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#445858",
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "hexCode": "#6E958C",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#6E958C",
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "hexCode": "#1D2427",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#D5E4DB",
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "hexCode": "#868357",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#6E958C",
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "hexCode": "#9CAB7F",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#9CAB7F",
+      "alpha": 0.7
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "hexCode": "#283136",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#D5E4DB",
+      "alpha": 1.0
+    }
+  }
+}

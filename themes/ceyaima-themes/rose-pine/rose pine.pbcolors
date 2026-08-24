@@ -1,0 +1,145 @@
+{
+  "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+  "source": "https://vscodethemes.com/e/mvllow.rose-pine/rose-pine",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "red": 0.82745098039215681,
+      "green": 0.51764705882352946,
+      "blue": 0.49019607843137253,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.90980392156862744,
+      "green": 0.74117647058823533,
+      "blue": 0.72941176470588232,
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "red": 0.97647058823529409,
+      "green": 0.95686274509803926,
+      "blue": 0.92941176470588238,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.10196078431372549,
+      "green": 0.090196078431372548,
+      "blue": 0.13725490196078433,
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "red": 0.94901960784313721,
+      "green": 0.92941176470588238,
+      "blue": 0.90980392156862744,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.13725490196078433,
+      "green": 0.12156862745098039,
+      "blue": 0.17647058823529413,
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "red": 0.97647058823529409,
+      "green": 0.95686274509803926,
+      "blue": 0.92941176470588238,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.10196078431372549,
+      "green": 0.090196078431372548,
+      "blue": 0.13725490196078433,
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "red": 0.82745098039215681,
+      "green": 0.51764705882352946,
+      "blue": 0.49019607843137253,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.90980392156862744,
+      "green": 0.74117647058823533,
+      "blue": 0.72941176470588232,
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "red": 0.54509803921568623,
+      "green": 0.51764705882352946,
+      "blue": 0.615686274509804,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.5725490196078431,
+      "green": 0.54509803921568623,
+      "blue": 0.6588235294117647,
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "red": 0.34509803921568627,
+      "green": 0.31372549019607843,
+      "blue": 0.46274509803921571,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.88235294117647056,
+      "green": 0.87058823529411766,
+      "blue": 0.95294117647058818,
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "red": 0.54509803921568623,
+      "green": 0.51764705882352946,
+      "blue": 0.615686274509804,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.5725490196078431,
+      "green": 0.54509803921568623,
+      "blue": 0.6588235294117647,
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "red": 0.82745098039215681,
+      "green": 0.51764705882352946,
+      "blue": 0.49019607843137253,
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "red": 0.99215686274509807,
+      "green": 0.41568627450980394,
+      "blue": 0.40784313725490196,
+      "alpha": 0.3
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "red": 0.34509803921568627,
+      "green": 0.31372549019607843,
+      "blue": 0.46274509803921571,
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "red": 0.88235294117647056,
+      "green": 0.87058823529411766,
+      "blue": 0.95294117647058818,
+      "alpha": 1.0
+    }
+  }
+}

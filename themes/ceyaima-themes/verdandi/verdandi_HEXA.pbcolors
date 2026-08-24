@@ -1,0 +1,105 @@
+{
+  "description": "Verdandi themes for paperback",
+  "source": "https://vscodethemes.com/e/be5invis.theme-verdandi/verdandi-alter",
+  "creator": "ceyaima",
+  "accentColor": {
+    "lightColor": {
+      "hexCode": "#52575F",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#D9DCE0",
+      "alpha": 1.0
+    }
+  },
+  "accentTextColor": {
+    "lightColor": {
+      "hexCode": "#F8F9FA",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#0F1216",
+      "alpha": 1.0
+    }
+  },
+  "foregroundColor": {
+    "lightColor": {
+      "hexCode": "#D0D4D9",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#2D3239",
+      "alpha": 1.0
+    }
+  },
+  "backgroundColor": {
+    "lightColor": {
+      "hexCode": "#F8F9FA",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#0F1216",
+      "alpha": 1.0
+    }
+  },
+  "overlayColor": {
+    "lightColor": {
+      "hexCode": "#52575F",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#B6BBC0",
+      "alpha": 0.3
+    }
+  },
+  "separatorColor": {
+    "lightColor": {
+      "hexCode": "#898E94",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#898E94",
+      "alpha": 0.3
+    }
+  },
+  "bodyTextColor": {
+    "lightColor": {
+      "hexCode": "#363A3F",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#B6BBC0",
+      "alpha": 1.0
+    }
+  },
+  "subtitleTextColor": {
+    "lightColor": {
+      "hexCode": "#898E94",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#898E94",
+      "alpha": 1.0
+    }
+  },
+  "buttonNormalBackgroundColor": {
+    "lightColor": {
+      "hexCode": "#52575F",
+      "alpha": 0.3
+    },
+    "darkColor": {
+      "hexCode": "#2D3239",
+      "alpha": 0.8
+    }
+  },
+  "buttonNormalTextColor": {
+    "lightColor": {
+      "hexCode": "#363A3F",
+      "alpha": 1.0
+    },
+    "darkColor": {
+      "hexCode": "#B6BBC0",
+      "alpha": 1.0
+    }
+  }
+}
